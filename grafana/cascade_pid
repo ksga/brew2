@@ -1,0 +1,354 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": "-- Grafana --",
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "target": {
+          "limit": 100,
+          "matchAny": false,
+          "tags": [],
+          "type": "dashboard"
+        },
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "gnetId": null,
+  "graphTooltip": 0,
+  "id": 4,
+  "links": [],
+  "panels": [
+    {
+      "datasource": null,
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 5,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      },
+      "id": 12,
+      "options": {
+        "colorMode": "value",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "auto"
+      },
+      "pluginVersion": "8.1.1",
+      "targets": [
+        {
+          "exemplar": true,
+          "expr": "outer_error",
+          "format": "time_series",
+          "instant": false,
+          "interval": "",
+          "intervalFactor": 1,
+          "legendFormat": "Error",
+          "refId": "A"
+        },
+        {
+          "exemplar": true,
+          "expr": "outer_integrator",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "Integrator",
+          "refId": "C"
+        },
+        {
+          "exemplar": true,
+          "expr": "outer_derivative",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "Derivative",
+          "refId": "D"
+        },
+        {
+          "exemplar": true,
+          "expr": "outer_output",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "Output",
+          "refId": "E"
+        }
+      ],
+      "title": "Outer PID",
+      "type": "stat"
+    },
+    {
+      "datasource": null,
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 5,
+        "w": 12,
+        "x": 12,
+        "y": 0
+      },
+      "id": 13,
+      "options": {
+        "colorMode": "value",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "auto"
+      },
+      "pluginVersion": "8.1.1",
+      "targets": [
+        {
+          "exemplar": true,
+          "expr": "inner_error",
+          "format": "time_series",
+          "instant": false,
+          "interval": "",
+          "intervalFactor": 1,
+          "legendFormat": "Error",
+          "refId": "A"
+        },
+        {
+          "exemplar": true,
+          "expr": "inner_integrator",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "Integrator",
+          "refId": "C"
+        },
+        {
+          "exemplar": true,
+          "expr": "inner_derivative",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "Derivative",
+          "refId": "D"
+        },
+        {
+          "exemplar": true,
+          "expr": "duty_hlt",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "Element",
+          "refId": "B"
+        }
+      ],
+      "title": "Inner PID",
+      "type": "stat"
+    },
+    {
+      "aliasColors": {},
+      "bars": false,
+      "dashLength": 10,
+      "dashes": false,
+      "datasource": "brewpanel",
+      "description": "",
+      "fill": 0,
+      "fillGradient": 0,
+      "gridPos": {
+        "h": 12,
+        "w": 24,
+        "x": 0,
+        "y": 5
+      },
+      "hiddenSeries": false,
+      "id": 8,
+      "legend": {
+        "avg": false,
+        "current": false,
+        "max": false,
+        "min": false,
+        "show": true,
+        "total": false,
+        "values": false
+      },
+      "lines": true,
+      "linewidth": 1,
+      "nullPointMode": "null",
+      "options": {
+        "alertThreshold": true
+      },
+      "percentage": false,
+      "pluginVersion": "8.1.1",
+      "pointradius": 2,
+      "points": false,
+      "renderer": "flot",
+      "seriesOverrides": [
+        {
+          "alias": "Duty",
+          "yaxis": 2
+        }
+      ],
+      "spaceLength": 10,
+      "stack": false,
+      "steppedLine": false,
+      "targets": [
+        {
+          "exemplar": true,
+          "expr": "temp_hlt",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "Temp_HLT",
+          "refId": "B"
+        },
+        {
+          "exemplar": true,
+          "expr": "temp_mlt",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "Temp_MLT",
+          "refId": "C"
+        },
+        {
+          "exemplar": true,
+          "expr": "inner_target",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "Target_HLT",
+          "refId": "A"
+        },
+        {
+          "exemplar": true,
+          "expr": "target_mlt",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "Target_MLT",
+          "refId": "D"
+        },
+        {
+          "exemplar": true,
+          "expr": "duty_hlt",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "Duty",
+          "refId": "E"
+        }
+      ],
+      "thresholds": [],
+      "timeFrom": null,
+      "timeRegions": [],
+      "timeShift": null,
+      "title": "MLT/HLT Temperature/duty cycle",
+      "tooltip": {
+        "shared": true,
+        "sort": 0,
+        "value_type": "individual"
+      },
+      "type": "graph",
+      "xaxis": {
+        "buckets": null,
+        "mode": "time",
+        "name": null,
+        "show": true,
+        "values": []
+      },
+      "yaxes": [
+        {
+          "$$hashKey": "object:253",
+          "decimals": null,
+          "format": "celsius",
+          "label": "Temperature",
+          "logBase": 1,
+          "max": "100",
+          "min": "0",
+          "show": true
+        },
+        {
+          "$$hashKey": "object:254",
+          "decimals": null,
+          "format": "percent",
+          "label": "Element duty cycle",
+          "logBase": 1,
+          "max": "100",
+          "min": "0",
+          "show": true
+        }
+      ],
+      "yaxis": {
+        "align": false,
+        "alignLevel": null
+      }
+    }
+  ],
+  "refresh": "5s",
+  "schemaVersion": 30,
+  "style": "dark",
+  "tags": [],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-1h",
+    "to": "now"
+  },
+  "timepicker": {
+    "refresh_intervals": [
+      "5s",
+      "10s",
+      "30s",
+      "1m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "1d"
+    ]
+  },
+  "timezone": "",
+  "title": "Cascade PID",
+  "uid": "Okr_1o7nz",
+  "version": 22
+}

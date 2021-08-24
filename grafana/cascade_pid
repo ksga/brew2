@@ -75,7 +75,7 @@
           "instant": false,
           "interval": "",
           "intervalFactor": 1,
-          "legendFormat": "Error",
+          "legendFormat": "Error (°C)",
           "refId": "A"
         },
         {
@@ -83,7 +83,7 @@
           "expr": "outer_integrator",
           "hide": false,
           "interval": "",
-          "legendFormat": "Integrator",
+          "legendFormat": "Integrator (°C*s)",
           "refId": "C"
         },
         {
@@ -91,7 +91,7 @@
           "expr": "outer_derivative",
           "hide": false,
           "interval": "",
-          "legendFormat": "Derivative",
+          "legendFormat": "Derivative (°C/s)",
           "refId": "D"
         },
         {
@@ -99,7 +99,7 @@
           "expr": "outer_output",
           "hide": false,
           "interval": "",
-          "legendFormat": "Output",
+          "legendFormat": "Output (°C)",
           "refId": "E"
         }
       ],
@@ -157,7 +157,7 @@
           "instant": false,
           "interval": "",
           "intervalFactor": 1,
-          "legendFormat": "Error",
+          "legendFormat": "Error (°C)",
           "refId": "A"
         },
         {
@@ -165,7 +165,7 @@
           "expr": "inner_integrator",
           "hide": false,
           "interval": "",
-          "legendFormat": "Integrator",
+          "legendFormat": "Integrator (°C*s)",
           "refId": "C"
         },
         {
@@ -173,7 +173,7 @@
           "expr": "inner_derivative",
           "hide": false,
           "interval": "",
-          "legendFormat": "Derivative",
+          "legendFormat": "Derivative (°C/s)",
           "refId": "D"
         },
         {
@@ -181,7 +181,7 @@
           "expr": "duty_hlt",
           "hide": false,
           "interval": "",
-          "legendFormat": "Element",
+          "legendFormat": "Element (%)",
           "refId": "B"
         }
       ],
@@ -229,6 +229,10 @@
         {
           "alias": "Duty",
           "yaxis": 2
+        },
+        {
+          "alias": "Duty (%)",
+          "yaxis": 2
         }
       ],
       "spaceLength": 10,
@@ -240,7 +244,7 @@
           "expr": "temp_hlt",
           "hide": false,
           "interval": "",
-          "legendFormat": "Temp_HLT",
+          "legendFormat": "Temp_HLT (°C)",
           "refId": "B"
         },
         {
@@ -248,7 +252,7 @@
           "expr": "temp_mlt",
           "hide": false,
           "interval": "",
-          "legendFormat": "Temp_MLT",
+          "legendFormat": "Temp_MLT (°C)",
           "refId": "C"
         },
         {
@@ -256,7 +260,7 @@
           "expr": "inner_target",
           "hide": false,
           "interval": "",
-          "legendFormat": "Target_HLT",
+          "legendFormat": "Target_HLT (°C)",
           "refId": "A"
         },
         {
@@ -264,7 +268,7 @@
           "expr": "target_mlt",
           "hide": false,
           "interval": "",
-          "legendFormat": "Target_MLT",
+          "legendFormat": "Target_MLT (°C)",
           "refId": "D"
         },
         {
@@ -272,7 +276,7 @@
           "expr": "duty_hlt",
           "hide": false,
           "interval": "",
-          "legendFormat": "Duty",
+          "legendFormat": "Duty (%)",
           "refId": "E"
         }
       ],
@@ -299,17 +303,17 @@
           "$$hashKey": "object:253",
           "decimals": null,
           "format": "celsius",
-          "label": "Temperature",
+          "label": "Temperature (°C)",
           "logBase": 1,
-          "max": "100",
-          "min": "0",
+          "max": null,
+          "min": null,
           "show": true
         },
         {
           "$$hashKey": "object:254",
           "decimals": null,
           "format": "percent",
-          "label": "Element duty cycle",
+          "label": "Element duty cycle (%)",
           "logBase": 1,
           "max": "100",
           "min": "0",
@@ -350,5 +354,5 @@
   "timezone": "",
   "title": "Cascade PID",
   "uid": "Okr_1o7nz",
-  "version": 22
+  "version": 25
 }

@@ -73,7 +73,7 @@
           "expr": "temp_boil",
           "hide": false,
           "interval": "",
-          "legendFormat": "Temp",
+          "legendFormat": "Temp (°C)",
           "refId": "B"
         },
         {
@@ -81,7 +81,7 @@
           "expr": "duty_bk",
           "hide": false,
           "interval": "",
-          "legendFormat": "Duty",
+          "legendFormat": "Duty (%)",
           "refId": "F"
         }
       ],
@@ -130,6 +130,10 @@
           "$$hashKey": "object:155",
           "alias": "Duty",
           "yaxis": 2
+        },
+        {
+          "alias": "Duty (%)",
+          "yaxis": 2
         }
       ],
       "spaceLength": 10,
@@ -141,7 +145,7 @@
           "expr": "temp_boil",
           "hide": false,
           "interval": "",
-          "legendFormat": "Temp",
+          "legendFormat": "Temp (°C)",
           "refId": "B"
         },
         {
@@ -149,7 +153,7 @@
           "expr": "duty_bk",
           "hide": false,
           "interval": "",
-          "legendFormat": "Duty",
+          "legendFormat": "Duty (%)",
           "refId": "A"
         }
       ],
@@ -176,17 +180,17 @@
           "$$hashKey": "object:37",
           "decimals": null,
           "format": "celsius",
-          "label": "Temperature",
+          "label": "Temperature (°C)",
           "logBase": 1,
-          "max": "100",
-          "min": "0",
+          "max": null,
+          "min": null,
           "show": true
         },
         {
           "$$hashKey": "object:38",
           "decimals": null,
           "format": "percent",
-          "label": "Element duty cycle",
+          "label": "Element duty cycle (%)",
           "logBase": 1,
           "max": "100",
           "min": "0",
@@ -227,5 +231,5 @@
   "timezone": "",
   "title": "Boil kettle",
   "uid": "64pqI9nnk",
-  "version": 4
+  "version": 6
 }

@@ -2,6 +2,7 @@
 <h3>Description</h3>
 
 This is a dashboard for brewery control, built using [Node-RED](https://github.com/node-red/node-red) running on a Raspberry Pi.
+The goal is to create a manual control panel, inspired by [The Electric Brewery](https://shop.theelectricbrewery.com/), but with the flexibility and capabilities of a Node-RED backend.
 
 Massive thanks to @jangevaare for his work - without it I would never have been able to get this working!
 
@@ -34,13 +35,13 @@ Tuning may be required. In a HERMS brewery it is very important to circulate HLT
 
 If you do not wish to use the Cascade PID functionality, set the outer loop coefficients all to 0. The algorithm will function then as a simple single PID using the inner loop coefficients. This is very useful for tuning the Cascade PID as well. I recommend that you run like this until you find a good tuning for the inner loop, you can then start to increase the outer loop coefficients.
 
+<h4>Hardware</h4>
+Node-RED is running on a Raspberry Pi (a Zero W will do nicely and is very affordable), acting as a WiFi AP (not necessary if your are in range of your netork) connected via Serial UART to an ESP32 (using a ESP32 devkit from AliExpress). The ESP32 is flashed with [ESPEasy](https://github.com/letscontrolit/ESPEasy/releases) and controls eight 4 digit 7-segment displays (TM1631) showing temperatures, set points and duty cycles.
+
 <h4>Logging</h4>
 
-brew2 uses <a href="https://github.com/influxdata/influxdb">InfluxDB</a> for optional logging of temperature and PID calculations. InfluxDB can be installed <a href="https://docs.influxdata.com/influxdb/v1.7/introduction/installation">following instructions here</a>. I recommend running both Node-RED and InfluxDB as services at startup. In my flows I refer to a database called `brew2`. You can create this by connecting to the InfluxDB command line interface (CLI), which can be done by typing simply `influx` after successful installation. Then, in the InfluxDB CLI type `CREATE DATABASE brew2`. You can then `exit`. You may return to this interface to work with your data in various ways - some of the more common operations *may* be implemented directly into brew2 in the future.
+The Raspberry Pi is running Prometheus scraping the metrics every two seconds. On a separate laptop Grafana connects to Prometheus and shows everything on some nice graphs in realtime. On boot Prometheus is not running, but it can be started from the settings menu.
 
-<h4>Development...</h3>
-
-* I am currently implementing mash profiles (probably 😜)
 
 <h3>Screenshots (v0.3.1)</h3>
 

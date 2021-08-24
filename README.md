@@ -43,10 +43,12 @@ Node-RED is running on a Raspberry Pi (a Zero W will do nicely and is very affor
 The Raspberry Pi is running Prometheus scraping the metrics every two seconds. On a separate laptop Grafana connects to Prometheus and shows everything on some nice graphs in realtime. On boot Prometheus is not running, but it can be started from the settings menu.
 
 
-<h3>Screenshots (v0.3.1)</h3>
+<h3>Screenshots (v0.5)</h3>
 
 <img src = "main.png" width=600>
-<img src = "mash_settings.png" width=600>
+<img src = "settings_main.png" width=600>
+<img src = "settings_cascade.png" width=600>
+<img src = "grafana_cascade_pid.png" width=600>
 
 <sub>The screenshots included in this repository may not always represent the current version. I will update these screenshots with more significant changes to the dashboard, and will also indicate the version number they represent.</sub>
 

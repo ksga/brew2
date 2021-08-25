@@ -80,6 +80,14 @@
         },
         {
           "exemplar": true,
+          "expr": "temp_mlt",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "Temp (°C)",
+          "refId": "B"
+        },
+        {
+          "exemplar": true,
           "expr": "outer_integrator",
           "hide": false,
           "interval": "",
@@ -159,6 +167,14 @@
           "intervalFactor": 1,
           "legendFormat": "Error (°C)",
           "refId": "A"
+        },
+        {
+          "exemplar": true,
+          "expr": "temp_hlt",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "Temp (°C)",
+          "refId": "E"
         },
         {
           "exemplar": true,
@@ -354,5 +370,5 @@
   "timezone": "",
   "title": "Cascade PID",
   "uid": "Okr_1o7nz",
-  "version": 25
+  "version": 26
 }

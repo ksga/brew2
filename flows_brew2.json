@@ -49,13 +49,6 @@
         "info": "Everything related to mash/HLT PID control, in\naddition to interlock features to prevent HLT\nuse when pump is inactive or when the boil \nelement is in use."
     },
     {
-        "id": "4ef08725.8fbdd",
-        "type": "tab",
-        "label": "PID outputs",
-        "disabled": false,
-        "info": "This flow displays output from the PID \nalgorithm. This can be useful for tuning \npurposes."
-    },
-    {
         "id": "70d4070b.e447b8",
         "type": "tab",
         "label": "Boil buttons",
@@ -68,6 +61,13 @@
         "label": "Boil controller",
         "disabled": false,
         "info": "PID functionality, as well as an interlock \nscheme to prevent multiple elements from being\nused at one time."
+    },
+    {
+        "id": "4ef08725.8fbdd",
+        "type": "tab",
+        "label": "PID outputs",
+        "disabled": false,
+        "info": "This flow displays output from the PID \nalgorithm. This can be useful for tuning \npurposes."
     },
     {
         "id": "44130c7e.f0c1fc",
@@ -141,7 +141,9 @@
             "b185bdba02650d23"
         ],
         "x": 14,
-        "y": 879
+        "y": 879,
+        "w": 1362,
+        "h": 602
     },
     {
         "id": "61bed963f0fb412c",
@@ -202,7 +204,9 @@
             "41f5e6a2f3a03e6f"
         ],
         "x": 14,
-        "y": 19
+        "y": 19,
+        "w": 1482,
+        "h": 722
     },
     {
         "id": "7fa64790.3f4f4",
@@ -514,186 +518,6 @@
         "collapse": false
     },
     {
-        "id": "79bd2c251e84e508",
-        "type": "ui_spacer",
-        "z": "44130c7e.f0c1fc",
-        "name": "spacer",
-        "group": "f6e1ef23.f6f118",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "21278feb374e3a2d",
-        "type": "ui_spacer",
-        "z": "44130c7e.f0c1fc",
-        "name": "spacer",
-        "group": "f6e1ef23.f6f118",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "cfad62ed86985638",
-        "type": "ui_spacer",
-        "z": "44130c7e.f0c1fc",
-        "name": "spacer",
-        "group": "f6e1ef23.f6f118",
-        "order": 6,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "476254a8024fda1f",
-        "type": "ui_spacer",
-        "z": "44130c7e.f0c1fc",
-        "name": "spacer",
-        "group": "f6e1ef23.f6f118",
-        "order": 8,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "2b0cc48c6d78ded4",
-        "type": "ui_spacer",
-        "z": "44130c7e.f0c1fc",
-        "name": "spacer",
-        "group": "f6e1ef23.f6f118",
-        "order": 13,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "bcd137d51a259ff8",
-        "type": "ui_spacer",
-        "z": "44130c7e.f0c1fc",
-        "name": "spacer",
-        "group": "fdb23bbe7c4d423a",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "25122f960927f392",
-        "type": "ui_spacer",
-        "z": "44130c7e.f0c1fc",
-        "name": "spacer",
-        "group": "fdb23bbe7c4d423a",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "fc44d3e29846aec4",
-        "type": "ui_spacer",
-        "z": "44130c7e.f0c1fc",
-        "name": "spacer",
-        "group": "fdb23bbe7c4d423a",
-        "order": 6,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "5ba64b9d98dcdb37",
-        "type": "ui_spacer",
-        "z": "44130c7e.f0c1fc",
-        "name": "spacer",
-        "group": "fdb23bbe7c4d423a",
-        "order": 8,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "4419a3ccba7755e3",
-        "type": "ui_spacer",
-        "z": "44130c7e.f0c1fc",
-        "name": "spacer",
-        "group": "fdb23bbe7c4d423a",
-        "order": 11,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "0b2bc95ec5655ea8",
-        "type": "ui_spacer",
-        "z": "44130c7e.f0c1fc",
-        "name": "spacer",
-        "group": "9fe30f36.92cc2",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "ea0c2f7e6ca46bec",
-        "type": "ui_spacer",
-        "z": "44130c7e.f0c1fc",
-        "name": "spacer",
-        "group": "9fe30f36.92cc2",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d4844456fec8fb26",
-        "type": "ui_spacer",
-        "z": "44130c7e.f0c1fc",
-        "name": "spacer",
-        "group": "9fe30f36.92cc2",
-        "order": 6,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "23b5ee0ebf70688c",
-        "type": "ui_spacer",
-        "z": "44130c7e.f0c1fc",
-        "name": "spacer",
-        "group": "9fe30f36.92cc2",
-        "order": 8,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "56a4b8773f948ad1",
-        "type": "ui_spacer",
-        "z": "44130c7e.f0c1fc",
-        "name": "spacer",
-        "group": "7311bc5c.585f8c",
-        "order": 1,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "9a0f359f3214f939",
-        "type": "ui_spacer",
-        "z": "44130c7e.f0c1fc",
-        "name": "spacer",
-        "group": "7311bc5c.585f8c",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "dfac9121868e4b5a",
-        "type": "ui_spacer",
-        "z": "44130c7e.f0c1fc",
-        "name": "spacer",
-        "group": "7311bc5c.585f8c",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "cf9df1a8bc61e652",
-        "type": "ui_spacer",
-        "z": "44130c7e.f0c1fc",
-        "name": "spacer",
-        "group": "7311bc5c.585f8c",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
         "id": "1cd5671ed19bdb26",
         "type": "prometheus-metric-config",
         "name": "inner_integrator",
@@ -780,36 +604,6 @@
         "help": "Outer output to inner",
         "labels": "",
         "mtype": "gauge"
-    },
-    {
-        "id": "3b22f227694937f4",
-        "type": "ui_spacer",
-        "z": "b764cb6a.5d4448",
-        "name": "spacer",
-        "group": "cafd8af.6569df8",
-        "order": 3,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "2d276044019c65c6",
-        "type": "ui_spacer",
-        "z": "b764cb6a.5d4448",
-        "name": "spacer",
-        "group": "cafd8af.6569df8",
-        "order": 6,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "c39fe42d052eb54d",
-        "type": "ui_spacer",
-        "z": "b764cb6a.5d4448",
-        "name": "spacer",
-        "group": "cafd8af.6569df8",
-        "order": 8,
-        "width": 6,
-        "height": 1
     },
     {
         "id": "f2631a9c7785d477",
@@ -912,11 +706,331 @@
         "height": 1
     },
     {
+        "id": "0e1ab650a8b596ee",
+        "type": "ui_spacer",
+        "z": "b764cb6a.5d4448",
+        "name": "spacer",
+        "group": "cafd8af.6569df8",
+        "order": 3,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "24652f9087f1d6b4",
+        "type": "ui_spacer",
+        "z": "b764cb6a.5d4448",
+        "name": "spacer",
+        "group": "cafd8af.6569df8",
+        "order": 6,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "06089e4f878bf26a",
+        "type": "ui_spacer",
+        "z": "b764cb6a.5d4448",
+        "name": "spacer",
+        "group": "cafd8af.6569df8",
+        "order": 8,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "fd3f6fc307fd92a5",
+        "type": "ui_spacer",
+        "z": "b764cb6a.5d4448",
+        "name": "spacer",
+        "group": "cafd8af.6569df8",
+        "order": 10,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "c7f221a4f712583c",
+        "type": "prometheus-metric-config",
+        "name": "boil_integrator",
+        "help": "boil integrator",
+        "labels": "",
+        "mtype": "gauge"
+    },
+    {
+        "id": "89015c0dda1942ad",
+        "type": "prometheus-metric-config",
+        "name": "boil_derivative",
+        "help": "boil derivative",
+        "labels": "",
+        "mtype": "gauge"
+    },
+    {
+        "id": "db33baf484f073b3",
+        "type": "prometheus-metric-config",
+        "name": "boil_error",
+        "help": "boil error",
+        "labels": "",
+        "mtype": "gauge"
+    },
+    {
+        "id": "0d3b2c7cd3048424",
+        "type": "prometheus-metric-config",
+        "name": "target_boil",
+        "help": "target boil",
+        "labels": "",
+        "mtype": "gauge"
+    },
+    {
+        "id": "20ac56a2c01d037a",
+        "type": "ui_group",
+        "name": "PID Loop",
+        "tab": "a2c5035f79267117",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a2c5035f79267117",
+        "type": "ui_tab",
+        "name": "Boil PID Settings",
+        "icon": "",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "9199a323759e4c3b",
+        "type": "ui_spacer",
+        "z": "4ef08725.8fbdd",
+        "name": "spacer",
+        "group": "20ac56a2c01d037a",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "0c93f7f1c2ff167e",
+        "type": "ui_spacer",
+        "z": "4ef08725.8fbdd",
+        "name": "spacer",
+        "group": "20ac56a2c01d037a",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "301d185f8fae30de",
+        "type": "ui_spacer",
+        "z": "4ef08725.8fbdd",
+        "name": "spacer",
+        "group": "20ac56a2c01d037a",
+        "order": 10,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "e97c4704ef76fa26",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "f6e1ef23.f6f118",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "455b56a53fa4268a",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "f6e1ef23.f6f118",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e12cb74f8d458d83",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "f6e1ef23.f6f118",
+        "order": 6,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "6a589988bd037be9",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "f6e1ef23.f6f118",
+        "order": 8,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "d5f63d7d0d8df0b8",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "f6e1ef23.f6f118",
+        "order": 13,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "259296bf51b3eb6a",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "fdb23bbe7c4d423a",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "55a5bec33ddcbb9b",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "fdb23bbe7c4d423a",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2feb4eaaf65a4620",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "fdb23bbe7c4d423a",
+        "order": 6,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "a76e47a9f627fa2d",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "fdb23bbe7c4d423a",
+        "order": 8,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "e93bc3020781db7c",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "fdb23bbe7c4d423a",
+        "order": 11,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "d5a0029037abe806",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "fdb23bbe7c4d423a",
+        "order": 12,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "a64e439fd434592d",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "9fe30f36.92cc2",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6a8633b2095bc4d5",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "9fe30f36.92cc2",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c9e170f9b0c25b97",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "9fe30f36.92cc2",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "359926d5875e32c8",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "9fe30f36.92cc2",
+        "order": 9,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "0eb08077e176867a",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "9fe30f36.92cc2",
+        "order": 12,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "1a0b73abe79d0cf9",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "7311bc5c.585f8c",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3014b9238ea10632",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "7311bc5c.585f8c",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "734afca7dff2dc99",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "7311bc5c.585f8c",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "493166ccba5d9634",
+        "type": "ui_spacer",
+        "z": "1e878673.29136a",
+        "name": "spacer",
+        "group": "7311bc5c.585f8c",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
         "id": "7fa5d2fb.efeb04",
         "type": "ui_text",
         "z": "cae39ee2.e2c898",
         "group": "9fe30f36.92cc2",
-        "order": 9,
+        "order": 10,
         "width": 3,
         "height": 1,
         "name": "BK temperature display",
@@ -1071,8 +1185,8 @@
         "topic": "",
         "payload": "50",
         "payloadType": "num",
-        "x": 120,
-        "y": 240,
+        "x": 160,
+        "y": 1180,
         "wires": [
             [
                 "91b3f0e4.35708",
@@ -1619,8 +1733,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 500,
-        "y": 100,
+        "x": 520,
+        "y": 1020,
         "wires": [
             [
                 "be52847e.467fe8",
@@ -1636,8 +1750,8 @@
         "links": [
             "737daba5.b4f1e4"
         ],
-        "x": 175,
-        "y": 100,
+        "x": 195,
+        "y": 1020,
         "wires": [
             [
                 "611bae86.6497c"
@@ -1651,7 +1765,8 @@
         "name": "BK raw temperature",
         "links": [
             "89ec63cb.ac191",
-            "8a024057.0ec2b8"
+            "8a024057.0ec2b8",
+            "c53c1c63ffcf26f6"
         ],
         "x": 555,
         "y": 80,
@@ -1666,8 +1781,8 @@
             "84dd404a.ab7a7",
             "c3ca6978.572d5"
         ],
-        "x": 675,
-        "y": 60,
+        "x": 695,
+        "y": 980,
         "wires": []
     },
     {
@@ -1675,7 +1790,7 @@
         "type": "switch",
         "z": "1e878673.29136a",
         "name": "bk_on",
-        "property": "bk_on",
+        "property": "bk_on_duty",
         "propertyType": "global",
         "rules": [
             {
@@ -1685,8 +1800,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 290,
-        "y": 100,
+        "x": 310,
+        "y": 1020,
         "wires": [
             [
                 "898bd7d9.a004f",
@@ -1713,8 +1828,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 580,
-        "y": 300,
+        "x": 620,
+        "y": 1240,
         "wires": [
             []
         ]
@@ -1738,6 +1853,20 @@
                 "pt": "global",
                 "to": "false",
                 "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "bk_on_pid",
+                "pt": "global",
+                "to": "bk_on",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "bk_on_duty",
+                "pt": "global",
+                "to": "bk_on",
+                "tot": "global"
             }
         ],
         "action": "",
@@ -1745,8 +1874,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 330,
-        "y": 580,
+        "x": 350,
+        "y": 1880,
         "wires": [
             [
                 "8a2f00e7.8fabc8"
@@ -1763,8 +1892,8 @@
             "c315e88a.988b48",
             "c3ca6978.572d5"
         ],
-        "x": 475,
-        "y": 580,
+        "x": 495,
+        "y": 1880,
         "wires": []
     },
     {
@@ -1774,7 +1903,8 @@
         "name": "BK GPIO",
         "links": [
             "8a2f00e7.8fabc8",
-            "be52847e.467fe8"
+            "be52847e.467fe8",
+            "9a03de9f13cde36d"
         ],
         "x": 175,
         "y": 420,
@@ -1782,7 +1912,8 @@
             [
                 "b51e8334.d588b8",
                 "61eb9fb6837d39ed",
-                "fb080b5b032adb31"
+                "fb080b5b032adb31",
+                "97fbfa6d6b86f474"
             ]
         ]
     },
@@ -1799,7 +1930,7 @@
         "property": "payload",
         "name": "Duty to watts",
         "x": 310,
-        "y": 460,
+        "y": 500,
         "wires": [
             [
                 "c0e8b26f.6046d8"
@@ -1811,7 +1942,7 @@
         "type": "ui_text",
         "z": "44130c7e.f0c1fc",
         "group": "9fe30f36.92cc2",
-        "order": 7,
+        "order": 8,
         "width": 3,
         "height": 1,
         "name": "Element output",
@@ -1819,7 +1950,7 @@
         "format": "{{payload | number:2}} kw",
         "layout": "row-left",
         "x": 320,
-        "y": 500,
+        "y": 540,
         "wires": []
     },
     {
@@ -2377,7 +2508,7 @@
         "links": [
             "3f94bf0f.96a108"
         ],
-        "x": 675,
+        "x": 655,
         "y": 380,
         "wires": []
     },
@@ -2570,7 +2701,7 @@
         "wires": [
             [
                 "2625d95d.2ed98e",
-                "a435ad6d787b0439"
+                "cce62fe0226b8434"
             ]
         ]
     },
@@ -2662,12 +2793,11 @@
         "z": "1e878673.29136a",
         "name": "Manual button",
         "links": [
-            "ed41478a.5a2028",
-            "1777733d.a2553d",
-            "04647387e999db8b"
+            "04647387e999db8b",
+            "1777733d.a2553d"
         ],
-        "x": 175,
-        "y": 640,
+        "x": 195,
+        "y": 2020,
         "wires": [
             [
                 "d3ab8458.31cd"
@@ -2685,10 +2815,12 @@
             "308e6b59.254394",
             "11c18a22.2ff07e",
             "fd8c477a.99a1a",
-            "4927cb34122fc0e4"
+            "4927cb34122fc0e4",
+            "c136b254eec2eb8c",
+            "3c0909f3056f3f4b"
         ],
-        "x": 175,
-        "y": 580,
+        "x": 195,
+        "y": 1880,
         "wires": [
             [
                 "af559447.163748"
@@ -2715,12 +2847,11 @@
         "onceDelay": "0.1",
         "topic": "",
         "payloadType": "date",
-        "x": 130,
-        "y": 520,
+        "x": 150,
+        "y": 1760,
         "wires": [
             [
-                "e3b8324b.0dcfb8",
-                "af559447.163748"
+                "3c0909f3056f3f4b"
             ]
         ]
     },
@@ -2734,7 +2865,8 @@
             "1fa228ebe66949a0",
             "83772e32.d03bd",
             "913cb8a6f0c2f52a",
-            "18afe461b98019bb"
+            "18afe461b98019bb",
+            "9c4db032bc454d6a"
         ],
         "x": 275,
         "y": 2500,
@@ -2803,7 +2935,7 @@
         "type": "switch",
         "z": "70d4070b.e447b8",
         "name": "",
-        "property": "bk_on",
+        "property": "bk_on_pid",
         "propertyType": "global",
         "rules": [
             {
@@ -2857,7 +2989,7 @@
         "z": "70d4070b.e447b8",
         "name": "Manual button colour",
         "links": [
-            "fb88d45f.879888"
+            "eb611712f53e071f"
         ],
         "x": 555,
         "y": 340,
@@ -2883,7 +3015,7 @@
         "to": "",
         "reg": false,
         "x": 440,
-        "y": 460,
+        "y": 680,
         "wires": [
             [
                 "8caf0a44.8225e8"
@@ -2910,7 +3042,7 @@
         "to": "",
         "reg": false,
         "x": 440,
-        "y": 420,
+        "y": 640,
         "wires": [
             [
                 "8caf0a44.8225e8"
@@ -2936,7 +3068,7 @@
         "repair": false,
         "outputs": 2,
         "x": 290,
-        "y": 440,
+        "y": 660,
         "wires": [
             [
                 "a6b86af0.976658"
@@ -2963,7 +3095,7 @@
         "drop": false,
         "allowrate": false,
         "x": 290,
-        "y": 400,
+        "y": 620,
         "wires": [
             [
                 "41dc7d89.cd143c"
@@ -2981,14 +3113,14 @@
             "c98ea849.baf91"
         ],
         "x": 555,
-        "y": 440,
+        "y": 660,
         "wires": []
     },
     {
         "id": "e3b8324b.0dcfb8",
         "type": "change",
         "z": "1e878673.29136a",
-        "name": "bk_on, bk_try = false",
+        "name": "bk_on, = false",
         "rules": [
             {
                 "t": "set",
@@ -2999,8 +3131,15 @@
             },
             {
                 "t": "set",
-                "p": "bk_try",
-                "pt": "flow",
+                "p": "bk_on_pid",
+                "pt": "global",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "bk_on_duty",
+                "pt": "global",
                 "to": "false",
                 "tot": "bool"
             }
@@ -3011,7 +3150,7 @@
         "to": "",
         "reg": false,
         "x": 340,
-        "y": 520,
+        "y": 1820,
         "wires": [
             []
         ]
@@ -3022,11 +3161,12 @@
         "z": "70d4070b.e447b8",
         "name": "Button click",
         "links": [
-            "1777733d.a2553d",
             "308e6b59.254394",
             "d888b85c.c0ab6",
             "11c18a22.2ff07e",
-            "fd8c477a.99a1a"
+            "fd8c477a.99a1a",
+            "224f2d72dd1d80b4",
+            "1777733d.a2553d"
         ],
         "x": 175,
         "y": 300,
@@ -3046,10 +3186,11 @@
             "308e6b59.254394",
             "d888b85c.c0ab6",
             "11c18a22.2ff07e",
-            "fd8c477a.99a1a"
+            "fd8c477a.99a1a",
+            "224f2d72dd1d80b4"
         ],
         "x": 175,
-        "y": 400,
+        "y": 620,
         "wires": [
             [
                 "238dec24.1a0fb4"
@@ -3182,7 +3323,7 @@
             "e9e1efef.4781b8"
         ],
         "x": 175,
-        "y": 440,
+        "y": 660,
         "wires": [
             [
                 "41dc7d89.cd143c"
@@ -3210,7 +3351,8 @@
         "links": [
             "29bf3a90.6f689e",
             "560b31e4.4f485",
-            "ab3bed93.7ae2b8"
+            "ab3bed93.7ae2b8",
+            "87e79aa0eb332386"
         ],
         "x": 415,
         "y": 220,
@@ -3301,7 +3443,7 @@
         "label": "Manual",
         "tooltip": "",
         "group": "9fe30f36.92cc2",
-        "order": 11,
+        "order": 15,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -3311,8 +3453,8 @@
         "min": "5",
         "max": "100",
         "step": "1",
-        "x": 330,
-        "y": 300,
+        "x": 370,
+        "y": 1240,
         "wires": [
             [
                 "da1a9a4c.d64808",
@@ -3325,15 +3467,15 @@
         "type": "ui_text",
         "z": "1e878673.29136a",
         "group": "9fe30f36.92cc2",
-        "order": 10,
+        "order": 13,
         "width": 3,
         "height": 1,
         "name": "Manual duty",
         "label": "Manual",
         "format": "{{payload | number:0}}٪",
         "layout": "col-center",
-        "x": 530,
-        "y": 240,
+        "x": 570,
+        "y": 1180,
         "wires": []
     },
     {
@@ -4071,7 +4213,7 @@
         "id": "48ae8805.06b6a",
         "type": "link in",
         "z": "4ef08725.8fbdd",
-        "name": "Boil PID display",
+        "name": "HLT PID display",
         "links": [
             "488e4b0e.1f641c",
             "a4abf3caada9aff7"
@@ -4101,7 +4243,7 @@
         "resendOnRefresh": false,
         "templateScope": "local",
         "x": 540,
-        "y": 660,
+        "y": 820,
         "wires": [
             []
         ]
@@ -4115,10 +4257,11 @@
             "45708f26.3186e",
             "5c35699bf7a7c361",
             "8a2f00e7.8fabc8",
-            "9ae6b3bc.013dd8"
+            "9ae6b3bc.013dd8",
+            "a0a65e052bae895f"
         ],
         "x": 195,
-        "y": 680,
+        "y": 840,
         "wires": [
             [
                 "3777085b.b9b408"
@@ -4159,7 +4302,7 @@
         "to": "",
         "reg": false,
         "x": 350,
-        "y": 640,
+        "y": 800,
         "wires": [
             [
                 "77f463e8.175d3c",
@@ -4183,7 +4326,7 @@
         "resendOnRefresh": false,
         "templateScope": "local",
         "x": 540,
-        "y": 620,
+        "y": 780,
         "wires": [
             []
         ]
@@ -4194,7 +4337,7 @@
         "z": "b764cb6a.5d4448",
         "name": "Dashboard connection",
         "x": 140,
-        "y": 620,
+        "y": 780,
         "wires": [
             [
                 "3777085b.b9b408"
@@ -4636,7 +4779,8 @@
         "name": "PID trigger",
         "links": [
             "dc955b1c.7edea",
-            "e4ee230ed04c1d0f"
+            "e4ee230ed04c1d0f",
+            "039202c60b023784"
         ],
         "x": 255,
         "y": 40,
@@ -4680,7 +4824,9 @@
             "49935c6a.faf4a4",
             "bd3e2af1d3ed25e2",
             "46e93551f1c32831",
-            "4d1f35cd3bd8dfe9"
+            "4d1f35cd3bd8dfe9",
+            "7ae007a22c0c7969",
+            "fa8c545e4816eb48"
         ],
         "x": 195,
         "y": 140,
@@ -4829,7 +4975,8 @@
         "name": "",
         "links": [
             "64f4ecd7.223dac",
-            "ab92465b6b3899d2"
+            "ab92465b6b3899d2",
+            "1578d57b799eaecd"
         ],
         "x": 215,
         "y": 300,
@@ -4885,6 +5032,7 @@
         "payload": "1",
         "payloadType": "num",
         "topic": "",
+        "topicType": "str",
         "x": 100,
         "y": 340,
         "wires": [
@@ -4899,7 +5047,7 @@
         "z": "b764cb6a.5d4448",
         "name": "",
         "group": "cafd8af.6569df8",
-        "order": 9,
+        "order": 11,
         "width": 0,
         "height": 0,
         "passthru": false,
@@ -5059,8 +5207,8 @@
                 "a737a233.30a01"
             ],
             [
-                "de8580fa.34da8",
-                "2dda6afa.9f9366"
+                "2dda6afa.9f9366",
+                "e4516bb2bc50578e"
             ]
         ]
     },
@@ -5096,7 +5244,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "7_Boil_Act.7dt,{{payload}}",
+        "template": "7_Boil_Temp.7dt,{{payload}}",
         "output": "str",
         "x": 900,
         "y": 160,
@@ -5115,7 +5263,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "7_HLT_Act.7dt,{{payload}}",
+        "template": "7_HLT_Temp.7dt,{{payload}}",
         "output": "str",
         "x": 900,
         "y": 400,
@@ -5134,7 +5282,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "7_MLT_Act.7dt,{{payload}}",
+        "template": "7_MLT_Temp.7dt,{{payload}}",
         "output": "str",
         "x": 900,
         "y": 640,
@@ -5227,8 +5375,8 @@
         "syntax": "mustache",
         "template": "GPIO,16,1",
         "output": "str",
-        "x": 460,
-        "y": 240,
+        "x": 520,
+        "y": 320,
         "wires": [
             [
                 "ea5eb4749f6fc0e8"
@@ -5245,7 +5393,7 @@
         "debounce": "25",
         "read": false,
         "x": 200,
-        "y": 920,
+        "y": 1000,
         "wires": [
             [
                 "737e5b5fcf05b9d9"
@@ -5261,7 +5409,7 @@
             "c25de40dc4df13dc"
         ],
         "x": 395,
-        "y": 920,
+        "y": 1000,
         "wires": []
     },
     {
@@ -5320,7 +5468,10 @@
             "e4fe8f649f75b01b",
             "91b3b45f771f2f18",
             "5f54d09d7e0bdf2d",
-            "0b0669bcbc4b57ea"
+            "0b0669bcbc4b57ea",
+            "a6b780f56b57a53a",
+            "96d3393d10072716",
+            "d8f65290d5a5928e"
         ],
         "x": 175,
         "y": 120,
@@ -5338,16 +5489,16 @@
         "links": [
             "4b2ff8c67d934266"
         ],
-        "x": 575,
-        "y": 240,
+        "x": 635,
+        "y": 320,
         "wires": []
     },
     {
         "id": "95013ad51c33cf0e",
         "type": "rpi-gpio out",
         "z": "b1c692f68c5eab8e",
-        "name": "GPIO Out_3 Status error",
-        "pin": "3",
+        "name": "GPIO Out_23 Status error",
+        "pin": "23",
         "set": true,
         "level": "1",
         "freq": "",
@@ -5490,7 +5641,7 @@
         "debounce": "25",
         "read": false,
         "x": 210,
-        "y": 860,
+        "y": 940,
         "wires": [
             [
                 "cd0c971f967773eb"
@@ -5598,7 +5749,7 @@
         "oldrc": false,
         "name": "Power OFF",
         "x": 450,
-        "y": 860,
+        "y": 940,
         "wires": [
             [],
             [],
@@ -5633,7 +5784,7 @@
         "debounce": "25",
         "read": false,
         "x": 220,
-        "y": 720,
+        "y": 800,
         "wires": [
             [
                 "abcff7180d300433"
@@ -5650,7 +5801,7 @@
         "debounce": "25",
         "read": false,
         "x": 210,
-        "y": 780,
+        "y": 860,
         "wires": [
             [
                 "0192c30fcebd023c"
@@ -5661,12 +5812,12 @@
         "id": "9c7c1d5b9b90f578",
         "type": "rpi-gpio in",
         "z": "54372d9c24210437",
-        "name": "GPIO In_36 BK element",
+        "name": "GPIO In_36 BK duty",
         "pin": "36",
         "intype": "down",
         "debounce": "25",
         "read": false,
-        "x": 220,
+        "x": 210,
         "y": 640,
         "wires": [
             [
@@ -5861,7 +6012,7 @@
         "id": "089ed2946fa33c8b",
         "type": "link out",
         "z": "54372d9c24210437",
-        "name": "GPIO In_36 BK element",
+        "name": "GPIO In_36 BK Duty",
         "links": [
             "0e8f2f5dce42f3f6"
         ],
@@ -5878,7 +6029,7 @@
             "6efbbff5bc2e1b15"
         ],
         "x": 395,
-        "y": 720,
+        "y": 800,
         "wires": []
     },
     {
@@ -5890,7 +6041,7 @@
             "9f4de4637de62e5e"
         ],
         "x": 395,
-        "y": 780,
+        "y": 860,
         "wires": []
     },
     {
@@ -6120,8 +6271,8 @@
         "links": [
             "4b2ff8c67d934266"
         ],
-        "x": 1175,
-        "y": 100,
+        "x": 1195,
+        "y": 1020,
         "wires": []
     },
     {
@@ -6132,8 +6283,8 @@
         "links": [
             "661c393d0ed9c711"
         ],
-        "x": 175,
-        "y": 300,
+        "x": 215,
+        "y": 1240,
         "wires": [
             [
                 "91b3f0e4.35708"
@@ -6173,7 +6324,7 @@
         "z": "70d4070b.e447b8",
         "name": "",
         "group": "9fe30f36.92cc2",
-        "order": 5,
+        "order": 7,
         "width": 2,
         "height": 1,
         "passthru": false,
@@ -6200,7 +6351,7 @@
         "z": "70d4070b.e447b8",
         "name": "Manual button colour",
         "links": [
-            "d4afc2dc.99b19"
+            "f17a2628e5a0f67a"
         ],
         "x": 175,
         "y": 100,
@@ -6236,6 +6387,8 @@
             "480aa2e0.59a21c",
             "5b459ac7.37d744",
             "5c7f7e7d.580358",
+            "be9ffb6d5de3b1c3",
+            "10abee8a27185fcf",
             "bc121ca4.f4dcb"
         ],
         "x": 415,
@@ -6253,7 +6406,11 @@
             "5c7f7e7d.580358",
             "7d106986.7fb6f",
             "bc121ca4.f4dcb",
-            "f142f115.fa1378"
+            "f142f115.fa1378",
+            "be9ffb6d5de3b1c3",
+            "10abee8a27185fcf",
+            "db89e720c718bade",
+            "895c99286d7b8717"
         ],
         "x": 415,
         "y": 140,
@@ -6287,7 +6444,8 @@
         "z": "54372d9c24210437",
         "name": "BK SP+/-",
         "links": [
-            "ba7d9b944fd42b16"
+            "ba7d9b944fd42b16",
+            "a41427764e72ea21"
         ],
         "x": 575,
         "y": 320,
@@ -6453,7 +6611,7 @@
         "label": "Target",
         "tooltip": "",
         "group": "fdb23bbe7c4d423a",
-        "order": 12,
+        "order": 13,
         "width": 6,
         "height": 1,
         "passthru": true,
@@ -6988,19 +7146,19 @@
             "f8471ffc.3e73c",
             "c315e88a.988b48"
         ],
-        "x": 395,
-        "y": 640,
+        "x": 635,
+        "y": 2000,
         "wires": []
     },
     {
         "id": "d3ab8458.31cd",
         "type": "change",
         "z": "1e878673.29136a",
-        "name": "bk_on",
+        "name": "bk_on_duty",
         "rules": [
             {
                 "t": "set",
-                "p": "bk_on",
+                "p": "bk_on_duty",
                 "pt": "global",
                 "to": "true",
                 "tot": "bool"
@@ -7011,11 +7169,12 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 290,
-        "y": 640,
+        "x": 330,
+        "y": 2020,
         "wires": [
             [
-                "45708f26.3186e"
+                "7147f038b76c226e",
+                "de6621f813756bf2"
             ]
         ]
     },
@@ -7052,10 +7211,6 @@
         "z": "cdc1c9a3.021f58",
         "name": "Bolt update",
         "links": [
-            "93befc16.2ca578",
-            "b05b4104.4b7748",
-            "a0d524b2.529a4",
-            "f8471ffc.3e73c",
             "c315e88a.988b48"
         ],
         "x": 575,
@@ -7591,8 +7746,8 @@
         "syntax": "mustache",
         "template": "7_Boil_Duty.7dn,{{payload}}",
         "output": "str",
-        "x": 1040,
-        "y": 100,
+        "x": 1060,
+        "y": 1020,
         "wires": [
             [
                 "4dbcf754eb968473"
@@ -7610,8 +7765,8 @@
         "syntax": "mustache",
         "template": "7_Boil_Duty.7dtext,----",
         "output": "str",
-        "x": 760,
-        "y": 160,
+        "x": 820,
+        "y": 1080,
         "wires": [
             [
                 "7126e0599a35cb0e"
@@ -7626,16 +7781,16 @@
         "links": [
             "4b2ff8c67d934266"
         ],
-        "x": 895,
-        "y": 160,
+        "x": 955,
+        "y": 1080,
         "wires": []
     },
     {
         "id": "b718fe0b6b228d2c",
         "type": "switch",
         "z": "1e878673.29136a",
-        "name": "bk_on",
-        "property": "bk_on",
+        "name": "bk_on_duty",
+        "property": "bk_on_duty",
         "propertyType": "global",
         "rules": [
             {
@@ -7645,8 +7800,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 590,
-        "y": 160,
+        "x": 630,
+        "y": 1080,
         "wires": [
             [
                 "8914cf4a8d1f9dda"
@@ -7669,8 +7824,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 440,
-        "y": 160,
+        "x": 460,
+        "y": 1080,
         "wires": [
             [
                 "b718fe0b6b228d2c"
@@ -7689,8 +7844,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 710,
-        "y": 100,
+        "x": 730,
+        "y": 1020,
         "wires": [
             [
                 "fd7abfbb0407c1df"
@@ -8248,7 +8403,7 @@
         "resendOnRefresh": false,
         "templateScope": "local",
         "x": 540,
-        "y": 700,
+        "y": 860,
         "wires": [
             []
         ]
@@ -8360,8 +8515,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 540,
-        "y": 440,
+        "x": 580,
+        "y": 1380,
         "wires": [
             [
                 "5a7510a0b353c5e6"
@@ -8376,7 +8531,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "bk_on",
+                "p": "bk_on_duty",
                 "pt": "global",
                 "to": "true",
                 "tot": "bool"
@@ -8394,8 +8549,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 880,
-        "y": 440,
+        "x": 920,
+        "y": 1380,
         "wires": [
             [
                 "04647387e999db8b"
@@ -8424,8 +8579,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 290,
-        "y": 380,
+        "x": 330,
+        "y": 1320,
         "wires": [
             [
                 "d882bd250c417dff"
@@ -8443,14 +8598,14 @@
         "rules": [
             {
                 "t": "set",
-                "p": "bk_on",
+                "p": "bk_on_duty",
                 "pt": "global",
                 "to": "false",
                 "tot": "bool"
             },
             {
                 "t": "set",
-                "p": "bk_on_temp",
+                "p": "bk_on_duty_temp",
                 "pt": "flow",
                 "to": "false",
                 "tot": "bool"
@@ -8468,8 +8623,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 460,
-        "y": 380,
+        "x": 500,
+        "y": 1320,
         "wires": [
             [
                 "4927cb34122fc0e4"
@@ -8481,14 +8636,14 @@
         "type": "function",
         "z": "1e878673.29136a",
         "name": "",
-        "func": "if (flow.get(\"bk_on_temp\") == true) {\n   return msg;\n}",
+        "func": "if (flow.get(\"bk_on_duty_temp\") == true) {\n   return msg;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 700,
-        "y": 440,
+        "x": 740,
+        "y": 1380,
         "wires": [
             [
                 "c0d5c944b99b0577"
@@ -8499,12 +8654,12 @@
         "id": "0e8f2f5dce42f3f6",
         "type": "link in",
         "z": "1e878673.29136a",
-        "name": "GPIO In_19 HLT element master",
+        "name": "GPIO In_36 BK Duty",
         "links": [
             "089ed2946fa33c8b"
         ],
-        "x": 175,
-        "y": 380,
+        "x": 215,
+        "y": 1320,
         "wires": [
             [
                 "9ec74de653ddd182"
@@ -8519,7 +8674,7 @@
         "rules": [
             {
                 "t": "set",
-                "p": "bk_on_temp",
+                "p": "bk_on_duty_temp",
                 "pt": "flow",
                 "to": "true",
                 "tot": "bool"
@@ -8530,8 +8685,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 340,
-        "y": 440,
+        "x": 390,
+        "y": 1380,
         "wires": [
             [
                 "d050062e71c51a23"
@@ -8542,25 +8697,26 @@
         "id": "4927cb34122fc0e4",
         "type": "link out",
         "z": "1e878673.29136a",
-        "name": "HLT_slave_GPIO_OFF",
+        "name": "BK_GPIO_OFF",
         "links": [
             "7d106986.7fb6f",
-            "f142f115.fa1378"
+            "895c99286d7b8717"
         ],
-        "x": 595,
-        "y": 380,
+        "x": 635,
+        "y": 1320,
         "wires": []
     },
     {
         "id": "04647387e999db8b",
         "type": "link out",
         "z": "1e878673.29136a",
-        "name": "HLT_slave_GPIO_ON",
+        "name": "BK_GPIO_ON",
         "links": [
-            "480aa2e0.59a21c"
+            "480aa2e0.59a21c",
+            "a7027516ae022a47"
         ],
-        "x": 1015,
-        "y": 440,
+        "x": 1055,
+        "y": 1380,
         "wires": []
     },
     {
@@ -8681,8 +8837,8 @@
         "syntax": "mustache",
         "template": "7_Boil_Duty.7dtext,----",
         "output": "str",
-        "x": 460,
-        "y": 700,
+        "x": 480,
+        "y": 2140,
         "wires": [
             [
                 "7b6f0fe21088db24"
@@ -8697,8 +8853,8 @@
         "links": [
             "4b2ff8c67d934266"
         ],
-        "x": 595,
-        "y": 700,
+        "x": 615,
+        "y": 2140,
         "wires": []
     },
     {
@@ -8716,8 +8872,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 290,
-        "y": 700,
+        "x": 310,
+        "y": 2140,
         "wires": [
             [
                 "6377443f432bb849"
@@ -8744,8 +8900,8 @@
         "onceDelay": "1",
         "topic": "",
         "payloadType": "date",
-        "x": 130,
-        "y": 700,
+        "x": 150,
+        "y": 2140,
         "wires": [
             [
                 "e6f60d553d78065a"
@@ -8923,8 +9079,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 860,
-        "y": 100,
+        "x": 880,
+        "y": 1020,
         "wires": [
             [
                 "6351c96d475ecf54"
@@ -9058,7 +9214,7 @@
         "finalize": "",
         "libs": [],
         "x": 300,
-        "y": 540,
+        "y": 580,
         "wires": [
             [
                 "41dbd72a4f5ecec9"
@@ -9072,7 +9228,7 @@
         "name": "BK element duty",
         "metric": "857a256a6b6cad54",
         "x": 480,
-        "y": 540,
+        "y": 580,
         "wires": []
     },
     {
@@ -9128,7 +9284,7 @@
         "wires": [
             [
                 "c1a25c6f707fc8ab",
-                "248d281f.81767"
+                "6ac9079366dd96a9"
             ]
         ]
     },
@@ -9220,7 +9376,7 @@
             "75b749ee0f531dcd",
             "0bb07abe9cdb5a1c"
         ],
-        "x": 415,
+        "x": 435,
         "y": 180,
         "wires": []
     },
@@ -9564,7 +9720,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 150,
-        "y": 860,
+        "y": 1040,
         "wires": [
             [
                 "9d7539ee33fad605"
@@ -9591,7 +9747,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 130,
-        "y": 1020,
+        "y": 1200,
         "wires": [
             [
                 "d21e13ece418cf83",
@@ -9612,7 +9768,7 @@
         "oldrc": false,
         "name": "",
         "x": 420,
-        "y": 860,
+        "y": 1040,
         "wires": [
             [],
             [],
@@ -9632,7 +9788,7 @@
         "oldrc": false,
         "name": "",
         "x": 520,
-        "y": 1080,
+        "y": 1260,
         "wires": [
             [],
             [],
@@ -9659,7 +9815,7 @@
         "to": "",
         "reg": false,
         "x": 340,
-        "y": 1020,
+        "y": 1200,
         "wires": [
             [
                 "e9262d01831788ed"
@@ -9673,7 +9829,7 @@
         "name": "",
         "serial": "bcce532d.61657",
         "x": 690,
-        "y": 1020,
+        "y": 1200,
         "wires": []
     },
     {
@@ -9689,7 +9845,7 @@
         "oldrc": false,
         "name": "",
         "x": 420,
-        "y": 780,
+        "y": 960,
         "wires": [
             [],
             [],
@@ -9713,7 +9869,7 @@
         "drop": false,
         "allowrate": false,
         "x": 330,
-        "y": 1080,
+        "y": 1260,
         "wires": [
             [
                 "1f1a3fe06c76687e"
@@ -9732,7 +9888,7 @@
         "finalize": "",
         "libs": [],
         "x": 520,
-        "y": 1020,
+        "y": 1200,
         "wires": [
             [
                 "21d1bd0c2ba55fde"
@@ -10517,7 +10673,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 150,
-        "y": 940,
+        "y": 1120,
         "wires": [
             [
                 "c41d9285e3c1c0a7"
@@ -10537,7 +10693,7 @@
         "oldrc": false,
         "name": "",
         "x": 420,
-        "y": 940,
+        "y": 1120,
         "wires": [
             [],
             [],
@@ -11243,6 +11399,1961 @@
         "wires": [
             [
                 "26fa054ace08ca6c"
+            ]
+        ]
+    },
+    {
+        "id": "cce62fe0226b8434",
+        "type": "delay",
+        "z": "28484198.eb083e",
+        "name": "delay",
+        "pauseType": "delay",
+        "timeout": "0.2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 650,
+        "y": 60,
+        "wires": [
+            [
+                "a435ad6d787b0439"
+            ]
+        ]
+    },
+    {
+        "id": "6ac9079366dd96a9",
+        "type": "delay",
+        "z": "28484198.eb083e",
+        "name": "delay",
+        "pauseType": "delay",
+        "timeout": "0.2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 650,
+        "y": 100,
+        "wires": [
+            [
+                "248d281f.81767"
+            ]
+        ]
+    },
+    {
+        "id": "7ab16c9f1cbfec23",
+        "type": "ui_button",
+        "z": "b764cb6a.5d4448",
+        "name": "",
+        "group": "cafd8af.6569df8",
+        "order": 9,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "Power OFF RPi",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#C26161",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 1320,
+        "wires": [
+            [
+                "bccadd1fb36b53a6"
+            ]
+        ]
+    },
+    {
+        "id": "b30d1eecd6780479",
+        "type": "exec",
+        "z": "b764cb6a.5d4448",
+        "command": "sudo poweroff #",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 520,
+        "y": 1320,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "bccadd1fb36b53a6",
+        "type": "delay",
+        "z": "b764cb6a.5d4448",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 330,
+        "y": 1320,
+        "wires": [
+            [
+                "b30d1eecd6780479"
+            ]
+        ]
+    },
+    {
+        "id": "5d228fc49f32c41e",
+        "type": "function",
+        "z": "1e878673.29136a",
+        "name": "",
+        "func": "msg.payload = flow.get('boil_integrator');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 1540,
+        "wires": [
+            [
+                "31fbd2421098c365"
+            ]
+        ]
+    },
+    {
+        "id": "f926443ef1e84c4b",
+        "type": "prometheus-exporter",
+        "z": "1e878673.29136a",
+        "name": "",
+        "metric": "c7f221a4f712583c",
+        "x": 1180,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "31fbd2421098c365",
+        "type": "function",
+        "z": "1e878673.29136a",
+        "name": "",
+        "func": "msg.payload = {\n         \"op\": \"set\",\n         \"val\": msg.payload\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 1540,
+        "wires": [
+            [
+                "f926443ef1e84c4b"
+            ]
+        ]
+    },
+    {
+        "id": "807c68105c69627f",
+        "type": "function",
+        "z": "1e878673.29136a",
+        "name": "",
+        "func": "msg.payload = flow.get('boil_derivative');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 1580,
+        "wires": [
+            [
+                "9edcbd5859e27796"
+            ]
+        ]
+    },
+    {
+        "id": "229a0166d37f57a1",
+        "type": "prometheus-exporter",
+        "z": "1e878673.29136a",
+        "name": "",
+        "metric": "89015c0dda1942ad",
+        "x": 1180,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "9edcbd5859e27796",
+        "type": "function",
+        "z": "1e878673.29136a",
+        "name": "",
+        "func": "msg.payload = {\n         \"op\": \"set\",\n         \"val\": msg.payload\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 1580,
+        "wires": [
+            [
+                "229a0166d37f57a1"
+            ]
+        ]
+    },
+    {
+        "id": "d038746467066a4e",
+        "type": "link in",
+        "z": "1e878673.29136a",
+        "name": "Cascade PID to graph",
+        "links": [
+            "3e9f37896d9c422a"
+        ],
+        "x": 695,
+        "y": 1540,
+        "wires": [
+            [
+                "5d228fc49f32c41e"
+            ]
+        ]
+    },
+    {
+        "id": "4627dbf3a5c56def",
+        "type": "link in",
+        "z": "1e878673.29136a",
+        "name": "Cascade PID to graph",
+        "links": [
+            "3e9f37896d9c422a"
+        ],
+        "x": 695,
+        "y": 1580,
+        "wires": [
+            [
+                "807c68105c69627f"
+            ]
+        ]
+    },
+    {
+        "id": "0bb28ac683bf1ed9",
+        "type": "function",
+        "z": "1e878673.29136a",
+        "name": "",
+        "func": "msg.payload = flow.get('last_boil_error');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 1620,
+        "wires": [
+            [
+                "e20ab691f1326d1b"
+            ]
+        ]
+    },
+    {
+        "id": "b3afa629a769fa8a",
+        "type": "prometheus-exporter",
+        "z": "1e878673.29136a",
+        "name": "",
+        "metric": "db33baf484f073b3",
+        "x": 1180,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "e20ab691f1326d1b",
+        "type": "function",
+        "z": "1e878673.29136a",
+        "name": "",
+        "func": "msg.payload = {\n         \"op\": \"set\",\n         \"val\": msg.payload\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 1620,
+        "wires": [
+            [
+                "b3afa629a769fa8a"
+            ]
+        ]
+    },
+    {
+        "id": "8e4bbbc939f32e5e",
+        "type": "link in",
+        "z": "1e878673.29136a",
+        "name": "Cascade PID to graph",
+        "links": [
+            "3e9f37896d9c422a"
+        ],
+        "x": 695,
+        "y": 1620,
+        "wires": [
+            [
+                "0bb28ac683bf1ed9"
+            ]
+        ]
+    },
+    {
+        "id": "c54056b11c63c61f",
+        "type": "prometheus-exporter",
+        "z": "1e878673.29136a",
+        "name": "",
+        "metric": "0d3b2c7cd3048424",
+        "x": 1170,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "664e8982915a9242",
+        "type": "function",
+        "z": "1e878673.29136a",
+        "name": "",
+        "func": "msg.payload = {\n         \"op\": \"set\",\n         \"val\": msg.payload\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 1660,
+        "wires": [
+            [
+                "c54056b11c63c61f"
+            ]
+        ]
+    },
+    {
+        "id": "ec7953955d99104b",
+        "type": "link in",
+        "z": "1e878673.29136a",
+        "name": "Cascade PID to graph",
+        "links": [
+            "3e9f37896d9c422a"
+        ],
+        "x": 695,
+        "y": 1660,
+        "wires": [
+            [
+                "c76596e2a901fa0f"
+            ]
+        ]
+    },
+    {
+        "id": "c76596e2a901fa0f",
+        "type": "function",
+        "z": "1e878673.29136a",
+        "name": "",
+        "func": "msg.payload = global.get('boil_target');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 1660,
+        "wires": [
+            [
+                "664e8982915a9242"
+            ]
+        ]
+    },
+    {
+        "id": "9a03de9f13cde36d",
+        "type": "link out",
+        "z": "1e878673.29136a",
+        "name": "HLT PID",
+        "links": [
+            "84dd404a.ab7a7"
+        ],
+        "x": 815,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "57e3c624ba4fe0ed",
+        "type": "switch",
+        "z": "1e878673.29136a",
+        "name": "bk_on_pid switch",
+        "property": "bk_on_pid",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 490,
+        "y": 180,
+        "wires": [
+            [
+                "0bad38f44663694f",
+                "d12060128f3eef7c"
+            ]
+        ]
+    },
+    {
+        "id": "3e9f37896d9c422a",
+        "type": "link out",
+        "z": "1e878673.29136a",
+        "name": "HLT PID display",
+        "links": [
+            "4627dbf3a5c56def",
+            "53b01e4d9dca4ffa",
+            "8e4bbbc939f32e5e",
+            "d038746467066a4e",
+            "ec7953955d99104b"
+        ],
+        "x": 815,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "0bad38f44663694f",
+        "type": "function",
+        "z": "1e878673.29136a",
+        "name": "Boil PID",
+        "func": "// Note that the algorithm provided below assumes a 1 second iteration time\n// Justin Angevaare\n// May 2018\n\n// Set temperature\nmsg.temperature =  global.get('temp_boil');\n\n// Well that node doesn't work... do manually\nmsg.interval = 2000\n\n// Calculate error\nmsg.error = global.get('boil_target') - msg.temperature;\n\n// Set output max\nmsg.max_output = 100\n        \n// Calculate integrator max\nmsg.integrator_max = msg.max_output/flow.get('boil_i');\n\n// Update integrator\n// For purposes of integrator, bound error by [-1, 1]\nmsg.boil_integrator = flow.get('boil_integrator');\nmsg.boil_integrator += (msg.interval/1000) * Math.max(Math.min(msg.error, 1), -1);\n\n// Bound total integrator by absolute maximum\nmsg.boil_integrator = Math.max(Math.min(msg.boil_integrator, msg.integrator_max), -msg.integrator_max);\n\n// Output updated integrator to flow context\nflow.set('boil_integrator', msg.boil_integrator);\n\n// Calculate proportional action\nmsg.output = msg.error * flow.get('boil_p');\n\n// Calculate intergral action\nmsg.output += msg.boil_integrator * flow.get('boil_i');\n\n// Calculate derivative action\nmsg.boil_derivative = (msg.error - flow.get('last_boil_error'))/(msg.interval/1000);\nflow.set('boil_derivative', msg.boil_derivative);\nmsg.output += msg.boil_derivative * flow.get('boil_d');\n\n// Bound output by [0, max_output]\nmsg.output = Math.max(Math.min(msg.output, msg.max_output), 0);\n\n// Output updated last_inner_error_single to flow context\nmsg.last_boil_error = msg.error;\nflow.set('last_boil_error', msg.last_boil_error);\n\n// Set payload to element output\nmsg.payload = msg.output;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 180,
+        "wires": [
+            [
+                "9a03de9f13cde36d",
+                "3e9f37896d9c422a"
+            ]
+        ]
+    },
+    {
+        "id": "361fd9144f8c6fea",
+        "type": "delay",
+        "z": "1e878673.29136a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 290,
+        "y": 180,
+        "wires": [
+            [
+                "57e3c624ba4fe0ed"
+            ]
+        ]
+    },
+    {
+        "id": "039202c60b023784",
+        "type": "link in",
+        "z": "1e878673.29136a",
+        "name": "HLT Master PID trigger",
+        "links": [
+            "5010ffd6.cabb28"
+        ],
+        "x": 155,
+        "y": 180,
+        "wires": [
+            [
+                "361fd9144f8c6fea"
+            ]
+        ]
+    },
+    {
+        "id": "a6aa98d471523776",
+        "type": "template",
+        "z": "1e878673.29136a",
+        "name": "BK reset display",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "7_Boil_Duty.7dtext,----",
+        "output": "str",
+        "x": 1060,
+        "y": 240,
+        "wires": [
+            [
+                "a6b780f56b57a53a"
+            ]
+        ]
+    },
+    {
+        "id": "a6b780f56b57a53a",
+        "type": "link out",
+        "z": "1e878673.29136a",
+        "name": "ESP",
+        "links": [
+            "4b2ff8c67d934266"
+        ],
+        "x": 1215,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "742592f39feea053",
+        "type": "switch",
+        "z": "1e878673.29136a",
+        "name": "bk_on_pid",
+        "property": "bk_on_pid",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 870,
+        "y": 240,
+        "wires": [
+            [
+                "a6aa98d471523776"
+            ]
+        ]
+    },
+    {
+        "id": "d12060128f3eef7c",
+        "type": "delay",
+        "z": "1e878673.29136a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 700,
+        "y": 240,
+        "wires": [
+            [
+                "742592f39feea053"
+            ]
+        ]
+    },
+    {
+        "id": "c53c1c63ffcf26f6",
+        "type": "link in",
+        "z": "1e878673.29136a",
+        "name": "HLT PID temperature input",
+        "links": [
+            "737daba5.b4f1e4"
+        ],
+        "x": 155,
+        "y": 100,
+        "wires": [
+            [
+                "19ad49b5da566ce5"
+            ]
+        ]
+    },
+    {
+        "id": "19ad49b5da566ce5",
+        "type": "change",
+        "z": "1e878673.29136a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "temp_boil",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "24127e898eed155e",
+        "type": "change",
+        "z": "1e878673.29136a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "boil_target",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "19aa4fc7faec4a82",
+        "type": "inject",
+        "z": "1e878673.29136a",
+        "name": "Default Target",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5.1",
+        "topic": "",
+        "payload": "75",
+        "payloadType": "num",
+        "x": 230,
+        "y": 560,
+        "wires": [
+            [
+                "cb3d4af22e501bdc"
+            ]
+        ]
+    },
+    {
+        "id": "cb3d4af22e501bdc",
+        "type": "ui_slider",
+        "z": "1e878673.29136a",
+        "name": "Boil target slider",
+        "label": "Target",
+        "tooltip": "",
+        "group": "9fe30f36.92cc2",
+        "order": 14,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "",
+        "topicType": "str",
+        "min": "25",
+        "max": "90",
+        "step": "0.5",
+        "x": 440,
+        "y": 620,
+        "wires": [
+            [
+                "24127e898eed155e",
+                "e5a7bd37ede575bb",
+                "58195ab67bc629a5"
+            ]
+        ]
+    },
+    {
+        "id": "e5a7bd37ede575bb",
+        "type": "ui_text",
+        "z": "1e878673.29136a",
+        "group": "9fe30f36.92cc2",
+        "order": 11,
+        "width": 3,
+        "height": 1,
+        "name": "Boil target",
+        "label": "Boil Target",
+        "format": "{{payload | number:1}}°C",
+        "layout": "col-center",
+        "x": 630,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "5c7fdcd6e80b46ba",
+        "type": "template",
+        "z": "1e878673.29136a",
+        "name": "Boil target temperature",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "7_Boil_Set.7dt,{{payload}}",
+        "output": "str",
+        "x": 860,
+        "y": 720,
+        "wires": [
+            [
+                "96d3393d10072716"
+            ]
+        ]
+    },
+    {
+        "id": "96d3393d10072716",
+        "type": "link out",
+        "z": "1e878673.29136a",
+        "name": "ESP",
+        "links": [
+            "4b2ff8c67d934266"
+        ],
+        "x": 1035,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "a41427764e72ea21",
+        "type": "link in",
+        "z": "1e878673.29136a",
+        "name": "Boil SP+/-",
+        "links": [
+            "661c393d0ed9c711"
+        ],
+        "x": 285,
+        "y": 620,
+        "wires": [
+            [
+                "cb3d4af22e501bdc"
+            ]
+        ]
+    },
+    {
+        "id": "58195ab67bc629a5",
+        "type": "switch",
+        "z": "1e878673.29136a",
+        "name": "boil_on_pid",
+        "property": "boil_on_pid",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 640,
+        "y": 720,
+        "wires": [
+            [
+                "5c7fdcd6e80b46ba"
+            ]
+        ]
+    },
+    {
+        "id": "449b750bac6c2dfd",
+        "type": "change",
+        "z": "1e878673.29136a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "boil_p",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 1500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "282960740f7c8482",
+        "type": "change",
+        "z": "1e878673.29136a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "boil_i",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 1580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3653a7a7aa63a12b",
+        "type": "change",
+        "z": "1e878673.29136a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "boil_d",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 1660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b224c1f827a927d9",
+        "type": "inject",
+        "z": "1e878673.29136a",
+        "name": "Default Boil Kp",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "20.0",
+        "payloadType": "num",
+        "x": 150,
+        "y": 1460,
+        "wires": [
+            [
+                "7d51cadc2fa7d984",
+                "449b750bac6c2dfd"
+            ]
+        ]
+    },
+    {
+        "id": "b9e4a0735af15159",
+        "type": "inject",
+        "z": "1e878673.29136a",
+        "name": "Default Boil Ki",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 170,
+        "y": 1540,
+        "wires": [
+            [
+                "60c5f170e9a6c805",
+                "282960740f7c8482"
+            ]
+        ]
+    },
+    {
+        "id": "f7479ecb9d8e8aa1",
+        "type": "inject",
+        "z": "1e878673.29136a",
+        "name": "Default Boil Kd",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "30",
+        "payloadType": "num",
+        "x": 150,
+        "y": 1620,
+        "wires": [
+            [
+                "21ad2642dc2c45ec",
+                "3653a7a7aa63a12b"
+            ]
+        ]
+    },
+    {
+        "id": "21ad2642dc2c45ec",
+        "type": "ui_numeric",
+        "z": "1e878673.29136a",
+        "name": "",
+        "label": "K𝖽",
+        "tooltip": "",
+        "group": "20ac56a2c01d037a",
+        "order": 9,
+        "width": 4,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "",
+        "topicType": "str",
+        "format": "{{value | number:1}}",
+        "min": 0,
+        "max": "100",
+        "step": "0.2",
+        "x": 170,
+        "y": 1660,
+        "wires": [
+            [
+                "3653a7a7aa63a12b"
+            ]
+        ]
+    },
+    {
+        "id": "60c5f170e9a6c805",
+        "type": "ui_numeric",
+        "z": "1e878673.29136a",
+        "name": "",
+        "label": "K𝗂",
+        "tooltip": "",
+        "group": "20ac56a2c01d037a",
+        "order": 7,
+        "width": 4,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "",
+        "topicType": "str",
+        "format": "{{value | number:1}}",
+        "min": 0,
+        "max": "100",
+        "step": "0.2",
+        "x": 170,
+        "y": 1580,
+        "wires": [
+            [
+                "282960740f7c8482"
+            ]
+        ]
+    },
+    {
+        "id": "7d51cadc2fa7d984",
+        "type": "ui_numeric",
+        "z": "1e878673.29136a",
+        "name": "",
+        "label": "K𝗉",
+        "tooltip": "",
+        "group": "20ac56a2c01d037a",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "",
+        "topicType": "str",
+        "format": "{{value | number:1}}",
+        "min": 0,
+        "max": "99",
+        "step": "0.2",
+        "x": 170,
+        "y": 1500,
+        "wires": [
+            [
+                "449b750bac6c2dfd"
+            ]
+        ]
+    },
+    {
+        "id": "b69de3e872a103fb",
+        "type": "ui_button",
+        "z": "b764cb6a.5d4448",
+        "name": "",
+        "group": "cafd8af.6569df8",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "Boil PID",
+        "tooltip": "",
+        "color": "#757575",
+        "bgcolor": "white",
+        "icon": "",
+        "payload": "4",
+        "payloadType": "num",
+        "topic": "",
+        "topicType": "str",
+        "x": 100,
+        "y": 580,
+        "wires": [
+            [
+                "9f92ccc0.54cce"
+            ]
+        ]
+    },
+    {
+        "id": "87fc32bacecad5a6",
+        "type": "ui_button",
+        "z": "b764cb6a.5d4448",
+        "name": "",
+        "group": "20ac56a2c01d037a",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Back",
+        "tooltip": "",
+        "color": "#757575",
+        "bgcolor": "#e0e0e0",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "",
+        "topicType": "str",
+        "x": 90,
+        "y": 620,
+        "wires": [
+            [
+                "9f92ccc0.54cce"
+            ]
+        ]
+    },
+    {
+        "id": "97fbfa6d6b86f474",
+        "type": "ui_text",
+        "z": "44130c7e.f0c1fc",
+        "group": "20ac56a2c01d037a",
+        "order": 1,
+        "width": 2,
+        "height": 1,
+        "name": "Boil Element duty",
+        "label": "Output",
+        "format": "{{payload | number:0}}٪",
+        "layout": "col-center",
+        "x": 330,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "2c91365c59babc4e",
+        "type": "ui_text",
+        "z": "4ef08725.8fbdd",
+        "group": "20ac56a2c01d037a",
+        "order": 6,
+        "width": 2,
+        "height": 1,
+        "name": "Boil PID Integrator",
+        "label": "Integral",
+        "format": "{{boil_integrator | number:1}}°C⦁s",
+        "layout": "col-center",
+        "x": 550,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "444bb95c31722a35",
+        "type": "ui_text",
+        "z": "4ef08725.8fbdd",
+        "group": "20ac56a2c01d037a",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "name": "Boil PID Error",
+        "label": "Error",
+        "format": "{{last_boil_error | number:1}}°C",
+        "layout": "col-center",
+        "x": 540,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "2620dae891787764",
+        "type": "ui_text",
+        "z": "4ef08725.8fbdd",
+        "group": "20ac56a2c01d037a",
+        "order": 8,
+        "width": 2,
+        "height": 1,
+        "name": "Boil PID Derivative",
+        "label": "Derivative",
+        "format": "{{boil_derivative | number:1}}°C/s",
+        "layout": "col-center",
+        "x": 550,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "53b01e4d9dca4ffa",
+        "type": "link in",
+        "z": "4ef08725.8fbdd",
+        "name": "Boil PID display",
+        "links": [
+            "3e9f37896d9c422a",
+            "da0253bddbe097c9"
+        ],
+        "x": 355,
+        "y": 760,
+        "wires": [
+            [
+                "2c91365c59babc4e",
+                "2620dae891787764",
+                "444bb95c31722a35"
+            ]
+        ]
+    },
+    {
+        "id": "143201af828dbe64",
+        "type": "change",
+        "z": "1e878673.29136a",
+        "name": "Zero everything",
+        "rules": [
+            {
+                "t": "set",
+                "p": "last_boil_error",
+                "pt": "msg",
+                "to": "0.0",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "last_boil_error",
+                "pt": "flow",
+                "to": "last_boil_error",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "boil_integrator",
+                "pt": "msg",
+                "to": "0.0",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "boil_integrator",
+                "pt": "flow",
+                "to": "boil_integrator",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "boil_derivative",
+                "pt": "msg",
+                "to": "0.0",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "boil_derivative",
+                "pt": "flow",
+                "to": "boil_derivative",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 1940,
+        "wires": [
+            [
+                "da0253bddbe097c9"
+            ]
+        ]
+    },
+    {
+        "id": "da0253bddbe097c9",
+        "type": "link out",
+        "z": "1e878673.29136a",
+        "name": "BK PID display",
+        "links": [
+            "53b01e4d9dca4ffa"
+        ],
+        "x": 475,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "895c99286d7b8717",
+        "type": "link in",
+        "z": "1e878673.29136a",
+        "name": "Off button",
+        "links": [
+            "308e6b59.254394",
+            "4927cb34122fc0e4",
+            "7d4b0e82a702a35f",
+            "3c0909f3056f3f4b"
+        ],
+        "x": 195,
+        "y": 1940,
+        "wires": [
+            [
+                "143201af828dbe64"
+            ]
+        ]
+    },
+    {
+        "id": "3c0909f3056f3f4b",
+        "type": "link out",
+        "z": "1e878673.29136a",
+        "name": "Boil PID display",
+        "links": [
+            "8aa6825fa2fd656d",
+            "7d106986.7fb6f",
+            "895c99286d7b8717"
+        ],
+        "x": 275,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "e4516bb2bc50578e",
+        "type": "exec",
+        "z": "8f70e1c4.47a51",
+        "command": "curl --silent \"http://10.0.0.2/control?cmd=GPIO,16,1\"",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 670,
+        "y": 260,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "db2f35804b5557e4",
+        "type": "switch",
+        "z": "1e878673.29136a",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 270,
+        "y": 340,
+        "wires": [
+            [
+                "149c4c7fec1d1c33"
+            ],
+            [
+                "aba95052c16094ab"
+            ]
+        ]
+    },
+    {
+        "id": "5722f2bfb5bb1632",
+        "type": "link in",
+        "z": "1e878673.29136a",
+        "name": "GPIO In_12 BK PID",
+        "links": [
+            "fe7b3684a276973b"
+        ],
+        "x": 155,
+        "y": 340,
+        "wires": [
+            [
+                "db2f35804b5557e4"
+            ]
+        ]
+    },
+    {
+        "id": "149c4c7fec1d1c33",
+        "type": "change",
+        "z": "1e878673.29136a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "boil_on_pid",
+                "pt": "global",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "boil_on_pid_temp",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 340,
+        "wires": [
+            [
+                "7d4b0e82a702a35f"
+            ]
+        ]
+    },
+    {
+        "id": "aba95052c16094ab",
+        "type": "change",
+        "z": "1e878673.29136a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "boil_on_pid_temp",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 400,
+        "wires": [
+            [
+                "5f55a4cd2f1ec1d3"
+            ]
+        ]
+    },
+    {
+        "id": "7d4b0e82a702a35f",
+        "type": "link out",
+        "z": "1e878673.29136a",
+        "name": "HLT_master_GPIO_OFF",
+        "links": [
+            "895c99286d7b8717"
+        ],
+        "x": 555,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "5f55a4cd2f1ec1d3",
+        "type": "delay",
+        "z": "1e878673.29136a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 560,
+        "y": 400,
+        "wires": [
+            [
+                "e90411cc23ad6756"
+            ]
+        ]
+    },
+    {
+        "id": "e90411cc23ad6756",
+        "type": "function",
+        "z": "1e878673.29136a",
+        "name": "",
+        "func": "if (flow.get(\"boil_on_pid_temp\") == true) {\n   return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 400,
+        "wires": [
+            [
+                "7bebfd67eea6dfc6",
+                "c35753352b9dcbb4"
+            ]
+        ]
+    },
+    {
+        "id": "7bebfd67eea6dfc6",
+        "type": "change",
+        "z": "1e878673.29136a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "boil_on_pid",
+                "pt": "global",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 400,
+        "wires": [
+            [
+                "c136b254eec2eb8c"
+            ]
+        ]
+    },
+    {
+        "id": "c35753352b9dcbb4",
+        "type": "change",
+        "z": "1e878673.29136a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "boil_target",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 460,
+        "wires": [
+            [
+                "afa3f9ba3aff033c"
+            ]
+        ]
+    },
+    {
+        "id": "c136b254eec2eb8c",
+        "type": "link out",
+        "z": "1e878673.29136a",
+        "name": "HLT_master_GPIO_ON",
+        "links": [
+            "7d106986.7fb6f",
+            "a7027516ae022a47"
+        ],
+        "x": 1035,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "afa3f9ba3aff033c",
+        "type": "template",
+        "z": "1e878673.29136a",
+        "name": "Boil target temperature",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "7_Boil_Set.7dt,{{payload}}",
+        "output": "str",
+        "x": 1130,
+        "y": 460,
+        "wires": [
+            [
+                "d8f65290d5a5928e"
+            ]
+        ]
+    },
+    {
+        "id": "d8f65290d5a5928e",
+        "type": "link out",
+        "z": "1e878673.29136a",
+        "name": "ESP",
+        "links": [
+            "4b2ff8c67d934266"
+        ],
+        "x": 1295,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "34417fbb23320c71",
+        "type": "rpi-gpio in",
+        "z": "54372d9c24210437",
+        "name": "GPIO In_12 BK pid",
+        "pin": "12",
+        "intype": "down",
+        "debounce": "25",
+        "read": false,
+        "x": 210,
+        "y": 700,
+        "wires": [
+            [
+                "fe7b3684a276973b"
+            ]
+        ]
+    },
+    {
+        "id": "fe7b3684a276973b",
+        "type": "link out",
+        "z": "54372d9c24210437",
+        "name": "GPIO In_12 BK PID",
+        "links": [
+            "5722f2bfb5bb1632"
+        ],
+        "x": 395,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "d59ef297d4453e4a",
+        "type": "ui_button",
+        "z": "70d4070b.e447b8",
+        "name": "",
+        "group": "9fe30f36.92cc2",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "PID",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{colour}}",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "",
+        "topicType": "str",
+        "x": 290,
+        "y": 60,
+        "wires": [
+            [
+                "224f2d72dd1d80b4"
+            ]
+        ]
+    },
+    {
+        "id": "eb611712f53e071f",
+        "type": "link in",
+        "z": "70d4070b.e447b8",
+        "name": "Manual button colour",
+        "links": [
+            "d4afc2dc.99b19"
+        ],
+        "x": 175,
+        "y": 60,
+        "wires": [
+            [
+                "d59ef297d4453e4a"
+            ]
+        ]
+    },
+    {
+        "id": "224f2d72dd1d80b4",
+        "type": "link out",
+        "z": "70d4070b.e447b8",
+        "name": "Manual button",
+        "links": [
+            "42c201b8.408ae",
+            "5b459ac7.37d744",
+            "5c7f7e7d.580358",
+            "bc121ca4.f4dcb",
+            "a7027516ae022a47",
+            "db89e720c718bade",
+            "be9ffb6d5de3b1c3"
+        ],
+        "x": 415,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "a7027516ae022a47",
+        "type": "link in",
+        "z": "1e878673.29136a",
+        "name": "PID button",
+        "links": [
+            "04647387e999db8b",
+            "224f2d72dd1d80b4",
+            "c136b254eec2eb8c"
+        ],
+        "x": 195,
+        "y": 2060,
+        "wires": [
+            [
+                "854585f7d4874154"
+            ]
+        ]
+    },
+    {
+        "id": "a0a65e052bae895f",
+        "type": "link out",
+        "z": "1e878673.29136a",
+        "name": "Bolt update",
+        "links": [
+            "93befc16.2ca578",
+            "b05b4104.4b7748",
+            "a0d524b2.529a4",
+            "f8471ffc.3e73c",
+            "c315e88a.988b48"
+        ],
+        "x": 635,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "854585f7d4874154",
+        "type": "change",
+        "z": "1e878673.29136a",
+        "name": "bk_on_pid",
+        "rules": [
+            {
+                "t": "set",
+                "p": "bk_on_pid",
+                "pt": "global",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 2060,
+        "wires": [
+            [
+                "7147f038b76c226e",
+                "3ddd0a1246fc3287"
+            ]
+        ]
+    },
+    {
+        "id": "7147f038b76c226e",
+        "type": "change",
+        "z": "1e878673.29136a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "bk_on",
+                "pt": "global",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 2040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "de6621f813756bf2",
+        "type": "delay",
+        "z": "1e878673.29136a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 510,
+        "y": 2000,
+        "wires": [
+            [
+                "45708f26.3186e"
+            ]
+        ]
+    },
+    {
+        "id": "3ddd0a1246fc3287",
+        "type": "delay",
+        "z": "1e878673.29136a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 510,
+        "y": 2080,
+        "wires": [
+            [
+                "a0a65e052bae895f"
+            ]
+        ]
+    },
+    {
+        "id": "3b520209dff7ccb1",
+        "type": "change",
+        "z": "70d4070b.e447b8",
+        "name": "off colour",
+        "rules": [
+            {
+                "t": "set",
+                "p": "colour",
+                "pt": "msg",
+                "to": "grey",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 520,
+        "wires": [
+            [
+                "f17a2628e5a0f67a"
+            ]
+        ]
+    },
+    {
+        "id": "805b3184cab64d0b",
+        "type": "change",
+        "z": "70d4070b.e447b8",
+        "name": "on colour",
+        "rules": [
+            {
+                "t": "set",
+                "p": "colour",
+                "pt": "msg",
+                "to": "#424242",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 480,
+        "wires": [
+            [
+                "f17a2628e5a0f67a"
+            ]
+        ]
+    },
+    {
+        "id": "0405f4de1db140ad",
+        "type": "switch",
+        "z": "70d4070b.e447b8",
+        "name": "",
+        "property": "bk_on_duty",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 290,
+        "y": 500,
+        "wires": [
+            [
+                "805b3184cab64d0b"
+            ],
+            [
+                "3b520209dff7ccb1"
+            ]
+        ]
+    },
+    {
+        "id": "d3328801c3ca25a4",
+        "type": "delay",
+        "z": "70d4070b.e447b8",
+        "name": "delay",
+        "pauseType": "delay",
+        "timeout": "0.2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 290,
+        "y": 460,
+        "wires": [
+            [
+                "0405f4de1db140ad"
+            ]
+        ]
+    },
+    {
+        "id": "f17a2628e5a0f67a",
+        "type": "link out",
+        "z": "70d4070b.e447b8",
+        "name": "Manual button colour",
+        "links": [
+            "fb88d45f.879888"
+        ],
+        "x": 555,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "be9ffb6d5de3b1c3",
+        "type": "link in",
+        "z": "70d4070b.e447b8",
+        "name": "Button click",
+        "links": [
+            "1777733d.a2553d",
+            "308e6b59.254394",
+            "d888b85c.c0ab6",
+            "11c18a22.2ff07e",
+            "fd8c477a.99a1a",
+            "224f2d72dd1d80b4"
+        ],
+        "x": 175,
+        "y": 460,
+        "wires": [
+            [
+                "d3328801c3ca25a4"
+            ]
+        ]
+    },
+    {
+        "id": "87e79aa0eb332386",
+        "type": "link in",
+        "z": "70d4070b.e447b8",
+        "name": "Button initialization",
+        "links": [
+            "a902d194.51df48",
+            "e9e1efef.4781b8"
+        ],
+        "x": 175,
+        "y": 500,
+        "wires": [
+            [
+                "0405f4de1db140ad"
+            ]
+        ]
+    },
+    {
+        "id": "8aa6825fa2fd656d",
+        "type": "link in",
+        "z": "1e878673.29136a",
+        "name": "",
+        "links": [
+            "3c0909f3056f3f4b"
+        ],
+        "x": 195,
+        "y": 1820,
+        "wires": [
+            [
+                "e3b8324b.0dcfb8"
             ]
         ]
     }

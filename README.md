@@ -1,4 +1,5 @@
-<h1>brew2</h1>
+<h1>brewpanel</h1>
+<h2>Formerly known as brew2</h2>
 <h3>Description</h3>
 
 This is a dashboard for brewery control, built using [Node-RED](https://github.com/node-red/node-red) running on a Raspberry Pi.

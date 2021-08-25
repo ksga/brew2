@@ -70,11 +70,43 @@
       "targets": [
         {
           "exemplar": true,
+          "expr": "target_boil",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "Target (°C)",
+          "refId": "A"
+        },
+        {
+          "exemplar": true,
           "expr": "temp_boil",
           "hide": false,
           "interval": "",
           "legendFormat": "Temp (°C)",
           "refId": "B"
+        },
+        {
+          "exemplar": true,
+          "expr": "boil_error",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "Error (°C)",
+          "refId": "C"
+        },
+        {
+          "exemplar": true,
+          "expr": "boil_integrator",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "Integrator (°C*s)",
+          "refId": "D"
+        },
+        {
+          "exemplar": true,
+          "expr": "boil_derivative",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "Derivative (°C/s)",
+          "refId": "E"
         },
         {
           "exemplar": true,
@@ -147,6 +179,14 @@
           "interval": "",
           "legendFormat": "Temp (°C)",
           "refId": "B"
+        },
+        {
+          "exemplar": true,
+          "expr": "target_boil",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "Target (°C)",
+          "refId": "C"
         },
         {
           "exemplar": true,
@@ -231,5 +271,5 @@
   "timezone": "",
   "title": "Boil kettle",
   "uid": "64pqI9nnk",
-  "version": 6
+  "version": 7
 }

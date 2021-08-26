@@ -3,4 +3,4 @@ Since we will be updating 7-segment displays via serial by taskname the order of
 
 <h3>Screenshots (v0.5)</h3>
 
-<img src = "esp/esp_config.png" width=600>
+<img src = "esp_config.png" width=600>

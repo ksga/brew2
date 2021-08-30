@@ -1,26 +1,22 @@
 <h1>brewpanel</h1>
-<h2>Formerly known as brew2</h2>
 <h3>Description</h3>
 
 This is a dashboard for brewery control, built using [Node-RED](https://github.com/node-red/node-red) running on a Raspberry Pi.
 The goal is to create a manual control panel, inspired by [The Electric Brewery](https://shop.theelectricbrewery.com/), but with the flexibility and capabilities of a Node-RED backend.
 
-Massive thanks to @jangevaare for his work - without it I would never have been able to get this working!
-This fork have no safety to prevent you from firing the elements without running pumps, or both elements at once, since I don't need it in my setup - but if you do, please take a look at the original [project](https://github.com/jangevaare/brew2).
+Massive thanks to @jangevaare for his work - without it I would never have been able to achieve this!
+This fork have no safety features to prevent you from firing the elements without running pumps, or both elements at once, since I don't need it in my setup - but if you do, please take a look at the original [project](https://github.com/jangevaare/brew2).
 
-This dashboard has been modified for a three vessel brewery with two pumps to perform recirculating, full volume mashes. Since it's built in Node-RED, it's fairly strightforward to adapt it for your specific needs - but expect a fairly steep learning curve if you've never done much like it before (speaking out of experience ;-) ). 
-
-You are free to use my work in whichever way you like, understanding that I accept no liability relating to its use. Please read the license provided. 
+This project is made for a three vessel brewery with two pumps to perform recirculating, full volume mashes. Since it's built in Node-RED, it's fairly strightforward to adapt it for your specific needs - but expect a fairly steep learning curve if you've never done much like it before (speaking out of experience ;-) ).
 
 <h3>Features</h3>
 
 * Cascade PID temperature control of mash (see below for details)
-* Mash PID with output limiting functionality (to protect agaisnt chaotic behaviour and/or scorching of wort in RIMS breweries)
-* PID temperature control for the HLT if preparing water for other use than mashing (sous vide comes to mind)
-* Manual control option for the boil kettle to prevent boil overs
+* PID temperature control for the HLT/BK if preparing water for other use than mashing (sous vide comes to mind)
+* Manual control option for the BK to prevent boil overs
 * Integrator windup elimination method implemented in all PID algorithms
-* Option of logging of temperature, output, as well as PID calculations (useful for PID tuning and analysing PID behaviour) using [Prometheus](https://prometheus.io/) and [Grafana](https://grafana.com/)
-* Looks nice
+* Option of logging of temperature, output, as well as PID calculations (useful for PID tuning and analysing PID behaviour) using [Prometheus](https://prometheus.io/) and [Grafana](https://grafana.com/) (running on another device)
+* Manual controls for just about everything, so no need to bring a laptop (and acccidentally soaking it in wort) for brew day
 
 <h4>Cascade PID</h4>
 

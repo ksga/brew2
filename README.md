@@ -37,6 +37,10 @@ If you do not wish to use the Cascade PID functionality, set the outer loop coef
 
 Node-RED is running on a Raspberry Pi (a Zero W will do nicely and is very affordable), acting as a WiFi AP (not necessary if your are in range of your netork) connected via Serial UART to an ESP32 (using a ESP32 devkit from AliExpress). The ESP32 is flashed with [ESPEasy](https://github.com/letscontrolit/ESPEasy) and controls eight 4 digit 7-segment displays (TM1631) showing temperatures, set points and duty cycles.
 
+Both elements are controlled via 3 position switches for either cascade PID, single loop PID or duty cycle, and setpoints are controlled using push buttons.
+
+The hardware setup is heavily inspired by The Electric Brewery, but as mentioned earlier using a software backend rather than "simple" PID-controllers.
+
 <h4>Logging</h4>
 
 The Raspberry Pi is running Prometheus scraping the metrics every two seconds. On a separate laptop Grafana connects to Prometheus and shows everything on some nice graphs in realtime. On boot Prometheus is not running, but it can be started from the settings menu.

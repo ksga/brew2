@@ -55,6 +55,7 @@ The Raspberry Pi is running Prometheus scraping the metrics every two seconds. O
 <b>MIT License</b>
 
 <i>Copyright (c) 2018-2020 Justin Angevaare</i>
+
 <i>Copyright (c) 2021 Kenneth Andersen</i>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

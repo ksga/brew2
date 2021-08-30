@@ -6,7 +6,7 @@ This is a dashboard for brewery control, built using [Node-RED](https://github.c
 The goal is to create a manual control panel, inspired by [The Electric Brewery](https://shop.theelectricbrewery.com/), but with the flexibility and capabilities of a Node-RED backend.
 
 Massive thanks to @jangevaare for his work - without it I would never have been able to get this working!
-This fork have no safety to prevent you from firing the elements without running pumps, or both elements at once, since I don't need it in my setup - but if you do, please take a look at the original project https://github.com/jangevaare/brew2
+This fork have no safety to prevent you from firing the elements without running pumps, or both elements at once, since I don't need it in my setup - but if you do, please take a look at the original [project](https://github.com/jangevaare/brew2).
 
 This dashboard has been modified for a three vessel brewery with two pumps to perform recirculating, full volume mashes. Since it's built in Node-RED, it's fairly strightforward to adapt it for your specific needs - but expect a fairly steep learning curve if you've never done much like it before (speaking out of experience ;-) ). 
 
@@ -38,7 +38,7 @@ Tuning may be required. In a HERMS brewery it is very important to circulate HLT
 If you do not wish to use the Cascade PID functionality, set the outer loop coefficients all to 0. The algorithm will function then as a simple single PID using the inner loop coefficients. This is very useful for tuning the Cascade PID as well. I recommend that you run like this until you find a good tuning for the inner loop, you can then start to increase the outer loop coefficients.
 
 <h4>Hardware</h4>
-Node-RED is running on a Raspberry Pi (a Zero W will do nicely and is very affordable), acting as a WiFi AP (not necessary if your are in range of your netork) connected via Serial UART to an ESP32 (using a ESP32 devkit from AliExpress). The ESP32 is flashed with [ESPEasy](https://github.com/letscontrolit/ESPEasy/releases/) and controls eight 4 digit 7-segment displays (TM1631) showing temperatures, set points and duty cycles.
+Node-RED is running on a Raspberry Pi (a Zero W will do nicely and is very affordable), acting as a WiFi AP (not necessary if your are in range of your netork) connected via Serial UART to an ESP32 (using a ESP32 devkit from AliExpress). The ESP32 is flashed with ESPEasy https://github.com/letscontrolit/ESPEasy/releases/ and controls eight 4 digit 7-segment displays (TM1631) showing temperatures, set points and duty cycles.
 
 <h4>Logging</h4>
 

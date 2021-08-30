@@ -6,8 +6,9 @@ This is a dashboard for brewery control, built using [Node-RED](https://github.c
 The goal is to create a manual control panel, inspired by [The Electric Brewery](https://shop.theelectricbrewery.com/), but with the flexibility and capabilities of a Node-RED backend.
 
 Massive thanks to @jangevaare for his work - without it I would never have been able to get this working!
+This fork have no safety to prevent you from firing the elements without running pumps, or both elements at once, since I don't need it in my setup - but if you do, please take a look at the original project https://github.com/jangevaare/brew2
 
-This dashboard has been specifically created for a three vessel brewery with two pumps to perform recirculating, full volume mashes. Other homebrewers may find the flows that comprise this dashboard useful in implementing some of the same features in their own brewery controller, but it will likely not suit their needs exactly as is. 
+This dashboard has been modified for a three vessel brewery with two pumps to perform recirculating, full volume mashes. Since it's built in Node-RED, it's fairly strightforward to adapt it for your specific needs - but expect a fairly steep learning curve if you've never done much like it before (speaking out of experience ;-) ). 
 
 You are free to use my work in whichever way you like, understanding that I accept no liability relating to its use. Please read the license provided. 
 

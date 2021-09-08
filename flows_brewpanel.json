@@ -98,55 +98,7 @@
         "info": "A pressure sensor is read by an analog input\nboard. The pressure reading is then converted\nto cmH20 and volume and displayed."
     },
     {
-        "id": "bd336349adf90104",
-        "type": "group",
-        "z": "cdc1c9a3.021f58",
-        "name": "HLT Element Slave",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "2148db6b6557cdbe",
-            "f59cfcbbfb4639dd",
-            "b0903eea9a211e5a",
-            "c30fc0af9f5ed2c1",
-            "ab92465b6b3899d2",
-            "aed6d1138513e9c0",
-            "cac2f361dc9d167d",
-            "f64287d933df1ad7",
-            "ee6b5fc809c1d480",
-            "74ab11eda85ff2aa",
-            "3257646635cc6148",
-            "6291966179c22be1",
-            "a4abf3caada9aff7",
-            "cef604b91b8176bb",
-            "58127e55645a759d",
-            "3e5a6cd8d6bf83f3",
-            "ca40e1500822cd36",
-            "15408a944489f009",
-            "cec1e5478901f7c6",
-            "f551047cfd9c23d7",
-            "47412f9f84bbed58",
-            "ab078de457d6d55a",
-            "913cb8a6f0c2f52a",
-            "37f128a268947962",
-            "e4ee230ed04c1d0f",
-            "0ff0c8475b109576",
-            "91d6b22ca62ac157",
-            "b397c70eab0b6fdb",
-            "b9f853daccfdc5a6",
-            "6cfcea51e609d12d",
-            "f071336931616d75",
-            "76a95c91c12c5876",
-            "b185bdba02650d23"
-        ],
-        "x": 14,
-        "y": 879,
-        "w": 1362,
-        "h": 602
-    },
-    {
-        "id": "61bed963f0fb412c",
+        "id": "df2c9f7cbc37c347",
         "type": "group",
         "z": "cdc1c9a3.021f58",
         "name": "MLT Element Master",
@@ -154,6 +106,16 @@
             "label": true
         },
         "nodes": [
+            "d8faefb485268f8c",
+            "d31496d7ef30101b",
+            "765d2d0d33574d29",
+            "6ef526a52f1f20d7",
+            "6387328aae5436da",
+            "0ad8924598a78cf4",
+            "16502dbcd50c4c04",
+            "b32da42c349a16ea",
+            "516ce2d62d52349f",
+            "68f7708378759a92",
             "afefdf37bd59ce8b",
             "0b0669bcbc4b57ea",
             "fa5ee3cc9927d414",
@@ -201,12 +163,71 @@
             "a4180baf9b9a8a2e",
             "2e1f1f1041263066",
             "5f54d09d7e0bdf2d",
-            "41f5e6a2f3a03e6f"
+            "41f5e6a2f3a03e6f",
+            "cacd724c1682e453",
+            "f9f2e9ede58e1260",
+            "8bcb16417036c729",
+            "1b44d5845b384242",
+            "78aa761ca589f1b4"
         ],
         "x": 14,
         "y": 19,
-        "w": 1482,
-        "h": 722
+        "w": 1682,
+        "h": 762
+    },
+    {
+        "id": "94161c53f2d20961",
+        "type": "group",
+        "z": "cdc1c9a3.021f58",
+        "name": "HLT Element Slave",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "2148db6b6557cdbe",
+            "f59cfcbbfb4639dd",
+            "b0903eea9a211e5a",
+            "c30fc0af9f5ed2c1",
+            "ab92465b6b3899d2",
+            "aed6d1138513e9c0",
+            "cac2f361dc9d167d",
+            "f64287d933df1ad7",
+            "ee6b5fc809c1d480",
+            "74ab11eda85ff2aa",
+            "3257646635cc6148",
+            "6291966179c22be1",
+            "a4abf3caada9aff7",
+            "cef604b91b8176bb",
+            "58127e55645a759d",
+            "3e5a6cd8d6bf83f3",
+            "ca40e1500822cd36",
+            "15408a944489f009",
+            "cec1e5478901f7c6",
+            "f551047cfd9c23d7",
+            "47412f9f84bbed58",
+            "ab078de457d6d55a",
+            "913cb8a6f0c2f52a",
+            "37f128a268947962",
+            "e4ee230ed04c1d0f",
+            "0ff0c8475b109576",
+            "91d6b22ca62ac157",
+            "b397c70eab0b6fdb",
+            "b9f853daccfdc5a6",
+            "6cfcea51e609d12d",
+            "f071336931616d75",
+            "76a95c91c12c5876",
+            "b185bdba02650d23",
+            "b0d4f59cf2f2a4b6",
+            "627430b6f95c19ab",
+            "de16d9ef2845bd8e",
+            "6658c2cc06c2352b",
+            "4110f8700764783f",
+            "721c1c5795d7dafb"
+        ],
+        "x": 14,
+        "y": 879,
+        "w": 1562,
+        "h": 622
     },
     {
         "id": "7fa64790.3f4f4",
@@ -1044,13 +1065,13 @@
         "height": 1
     },
     {
-        "id": "d5f02d09f9b81078",
+        "id": "b6f9982eced27ad1",
         "type": "ui_spacer",
-        "z": "b764cb6a.5d4448",
+        "z": "cae39ee2.e2c898",
         "name": "spacer",
         "group": "e6458924fcbea006",
-        "order": 2,
-        "width": 2,
+        "order": 11,
+        "width": 6,
         "height": 1
     },
     {
@@ -1085,7 +1106,8 @@
         "wires": [
             [
                 "7fa5d2fb.efeb04",
-                "b62197f193e571c7"
+                "b62197f193e571c7",
+                "2f54fd5303ba559d"
             ]
         ]
     },
@@ -1303,7 +1325,7 @@
         "id": "7eae3e81.46ee88",
         "type": "change",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "",
         "rules": [
             {
@@ -1329,7 +1351,7 @@
         "id": "a173c222.e1b86",
         "type": "function",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "Cascade PID - main",
         "func": "// brew2 Cascade PID algorithm\n// Justin Angevaare\n// Nov. 2019\n\n// Manually specify update interval\nmsg.interval = 2000;\n\n//\n// Begin Outer Control Loop\n//\n// Output from Outer Control will be the target HLT delta T\n// Calculate outer error\nmsg.outer_target = global.get('mlt_target')\nmsg.outer_error = msg.outer_target - global.get('temp-MLT');\n\n// Update outer integrator\n// For purposes of integrator, bound error by [-1, 1]\nmsg.outer_integrator = flow.get('outer_integrator');\nmsg.outer_integrator += (msg.interval/1000) * Math.max(Math.min(msg.outer_error, 1), -1);\n\n// Bound total outer integrator by absolute maximum\nmsg.outer_integrator = Math.max(Math.min(msg.outer_integrator, flow.get('outer_integrator_max')), -flow.get('outer_integrator_max'));\n\n// Output updated integrator to flow context\nflow.set('outer_integrator', msg.outer_integrator);\n\n// Calculate proportional action\nmsg.outer_output = msg.outer_error * flow.get('outer_p');\n\n// Calculate intergral action\nmsg.outer_output += msg.outer_integrator * flow.get('outer_i');\n\n// Calculate derivative action\nmsg.outer_derivative = (msg.outer_error - flow.get('last_outer_error'))/(msg.interval/1000);\nflow.set('outer_derivative', msg.outer_derivative);\nmsg.outer_output += msg.outer_derivative * flow.get('outer_d');\n\n// Bound outer_output by [outer_min, outer_max]\nmsg.outer_output = Math.max(Math.min(msg.outer_output, flow.get('outer_max')), flow.get('outer_min'));\nflow.set('outer_output', msg.outer_output);\n\n// Set inner_target\nmsg.inner_target = Math.min(msg.outer_target + msg.outer_output, 90)\nflow.set('inner_target', msg.inner_target);\n\n// Output updated last_outer_error to flow context\nmsg.last_outer_error = msg.outer_error;\nflow.set('last_outer_error', msg.last_outer_error);\n\n//\n// Begin Inner Control Loop\n// Output from inner control loop will be HLT element duty %\n// Calculate inner error\nmsg.inner_error = msg.inner_target - global.get('temp-HLT');\n\n// Update inner integrator\n// For purposes of integrator, bound error by [-1, 1]\nmsg.inner_integrator = flow.get('inner_integrator');\nmsg.inner_integrator += (msg.interval/1000) * Math.max(Math.min(msg.inner_error, 1), -1);\n\n// Bound total inner integrator by absolute maximum\nmsg.inner_integrator = Math.max(Math.min(msg.inner_integrator, flow.get('inner_integrator_max')), -flow.get('inner_integrator_max'));\n\n// Output updated integrator to flow context\nflow.set('inner_integrator', msg.inner_integrator);\n\n// Calculate proportional action\nmsg.inner_output = msg.inner_error * flow.get('inner_p');\n\n// Calculate intergral action\nmsg.inner_output += msg.inner_integrator * flow.get('inner_i');\n\n// Calculate derivative action\nmsg.inner_derivative = (msg.inner_error - flow.get('last_inner_error'))/(msg.interval/1000);\nflow.set('inner_derivative', msg.inner_derivative);\nmsg.inner_output += msg.inner_derivative * flow.get('inner_d');\n\n// Bound inner_output by [0.0, max_output]\nmsg.inner_output = Math.max(Math.min(msg.inner_output, flow.get('inner_max')), 0.0);\n\n// Output updated last_inner_error to flow context\nmsg.last_inner_error = msg.inner_error;\nflow.set('last_inner_error', msg.last_inner_error);\n\n// Set payload to element output\nmsg.payload = msg.inner_output;\n\nreturn msg;",
         "outputs": 1,
@@ -1393,7 +1415,7 @@
         "id": "6c4d238a.3d5554",
         "type": "switch",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "hlt_on_master switch",
         "property": "hlt_on_master",
         "propertyType": "global",
@@ -1418,7 +1440,7 @@
         "id": "324b69ce.251146",
         "type": "ui_text",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "group": "321aaa6a.377d5e",
         "order": 2,
         "width": 2,
@@ -1446,7 +1468,8 @@
         "wires": [
             [
                 "5af59d82.5bc6dc",
-                "45625a03c2303030"
+                "45625a03c2303030",
+                "cc54aa2698ee39cf"
             ]
         ]
     },
@@ -1465,7 +1488,8 @@
         "wires": [
             [
                 "96c9f49f.26944",
-                "26a3b3b366176b9a"
+                "26a3b3b366176b9a",
+                "8673b8f1e1385c53"
             ]
         ]
     },
@@ -1640,7 +1664,7 @@
         "id": "b8c19fef.ae0d88",
         "type": "inject",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "Default Target",
         "props": [
             {
@@ -1707,7 +1731,7 @@
         "type": "sensor-ds18b20",
         "z": "cae39ee2.e2c898",
         "name": "temp-MLT",
-        "sensorid": "28-0416384455ff",
+        "sensorid": "28-041637c899ff",
         "timer": "2",
         "repeat": false,
         "x": 300,
@@ -1992,7 +2016,7 @@
         "id": "d067663f.365a9",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "HLT GPIO",
         "links": [
             "24145682.3f917a",
@@ -2334,7 +2358,7 @@
         "id": "cfaeaee6.2a6ab",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "Mash PID display",
         "links": [
             "3f2878d3.94f4e",
@@ -3429,7 +3453,7 @@
         "id": "159ea120.ea187f",
         "type": "ui_slider",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "MLT target slider",
         "label": "Target",
         "tooltip": "",
@@ -3460,7 +3484,7 @@
         "id": "60b0a09.db4006",
         "type": "ui_text",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "group": "f6e1ef23.f6f118",
         "order": 12,
         "width": 3,
@@ -4797,7 +4821,7 @@
         "id": "dc955b1c.7edea",
         "type": "link in",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "Cascade PID trigger",
         "links": [
             "5010ffd6.cabb28"
@@ -4818,7 +4842,9 @@
         "links": [
             "dc955b1c.7edea",
             "e4ee230ed04c1d0f",
-            "039202c60b023784"
+            "039202c60b023784",
+            "36b4de81ee4a53fc",
+            "e83cac24c95cfd48"
         ],
         "x": 255,
         "y": 40,
@@ -4828,7 +4854,7 @@
         "id": "d6a0ec58.b20f1",
         "type": "function",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "Cascade PID - integrator max calculation",
         "func": "// brew2 PID algorithm - integrators\n// Justin Angevaare\n// May 2018 - Nov. 2019\n\n// Calculate outer integrator max\n// Output to flow context\nif(flow.get('outer_i')>0.0){\n    flow.set('outer_integrator_max', (flow.get('outer_max')-flow.get('outer_min'))/flow.get('outer_i'))}else {\n        flow.set('outer_integrator_max', 0.0)}\n\n// Calculate inner integrator max\n// Output to flow context\nif(flow.get('inner_i')>0.0){\n    flow.set('inner_integrator_max', flow.get('inner_max')/flow.get('inner_i'))}else {\n        flow.set('inner_integrator_max', 0.0)}\n\nreturn msg;",
         "outputs": 1,
@@ -4846,7 +4872,7 @@
         "id": "ae15465d.e134",
         "type": "link in",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "Cascade PID Integrator update",
         "links": [
             "b097c6ec.5fbe5",
@@ -4974,7 +5000,7 @@
         "id": "64f4ecd7.223dac",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "Mash target slider output",
         "links": [
             "6ce6448.f7e59bc"
@@ -5221,8 +5247,8 @@
         "y": 160,
         "wires": [
             [
-                "5a5a9495.acb01c",
-                "1787cd221601a4f9"
+                "1787cd221601a4f9",
+                "5a5a9495.acb01c"
             ]
         ]
     },
@@ -5237,16 +5263,18 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 300,
-        "y": 220,
+        "x": 320,
+        "y": 300,
         "wires": [
             [
-                "7d2285997aa3a58a",
-                "a737a233.30a01"
+                "a737a233.30a01",
+                "d3e3189e31557cd4"
             ],
             [
                 "2dda6afa.9f9366",
-                "e4516bb2bc50578e"
+                "1a29cb6801f5bad9",
+                "5d26ac99230947ed",
+                "d9987724f2c1b3cc"
             ]
         ]
     },
@@ -5265,8 +5293,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 300,
-        "y": 280,
+        "x": 320,
+        "y": 340,
         "wires": [
             [
                 "5a5a9495.acb01c"
@@ -5334,7 +5362,7 @@
         "id": "246d92a0.91a89e",
         "type": "template",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "MLT target temperature",
         "field": "payload",
         "fieldType": "msg",
@@ -5342,7 +5370,7 @@
         "syntax": "mustache",
         "template": "7_MLT_Set.7dt,{{payload}}",
         "output": "str",
-        "x": 730,
+        "x": 930,
         "y": 700,
         "wires": [
             [
@@ -5394,8 +5422,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 470,
-        "y": 200,
+        "x": 490,
+        "y": 240,
         "wires": [
             [
                 "5d8e28698cbe3963"
@@ -5413,8 +5441,8 @@
         "syntax": "mustache",
         "template": "GPIO,16,1",
         "output": "str",
-        "x": 520,
-        "y": 320,
+        "x": 640,
+        "y": 400,
         "wires": [
             [
                 "ea5eb4749f6fc0e8"
@@ -5462,7 +5490,9 @@
         "y": 80,
         "wires": [
             [
-                "1787cd221601a4f9"
+                "1787cd221601a4f9",
+                "173df5b562555843",
+                "6011a7f21c61d0ad"
             ]
         ]
     },
@@ -5509,7 +5539,18 @@
             "0b0669bcbc4b57ea",
             "a6b780f56b57a53a",
             "96d3393d10072716",
-            "d8f65290d5a5928e"
+            "d8f65290d5a5928e",
+            "247cafd7f15bea74",
+            "fb90b30244eef11c",
+            "71929ffb1e5f0c01",
+            "d31496d7ef30101b",
+            "6ef526a52f1f20d7",
+            "ce7098b81e6a3623",
+            "0ad8924598a78cf4",
+            "b32da42c349a16ea",
+            "68f7708378759a92",
+            "de16d9ef2845bd8e",
+            "721c1c5795d7dafb"
         ],
         "x": 175,
         "y": 120,
@@ -5527,8 +5568,8 @@
         "links": [
             "4b2ff8c67d934266"
         ],
-        "x": 635,
-        "y": 320,
+        "x": 755,
+        "y": 400,
         "wires": []
     },
     {
@@ -5541,8 +5582,8 @@
         "level": "1",
         "freq": "",
         "out": "out",
-        "x": 500,
-        "y": 480,
+        "x": 480,
+        "y": 640,
         "wires": []
     },
     {
@@ -5555,8 +5596,8 @@
         "level": "0",
         "freq": "",
         "out": "out",
-        "x": 500,
-        "y": 540,
+        "x": 470,
+        "y": 700,
         "wires": []
     },
     {
@@ -5567,8 +5608,8 @@
         "links": [
             "7d2285997aa3a58a"
         ],
-        "x": 315,
-        "y": 540,
+        "x": 295,
+        "y": 700,
         "wires": [
             [
                 "2748aaef9206b558"
@@ -5581,10 +5622,11 @@
         "z": "b1c692f68c5eab8e",
         "name": "GPIO Out_26 Status error",
         "links": [
-            "5d8e28698cbe3963"
+            "5d8e28698cbe3963",
+            "d9987724f2c1b3cc"
         ],
-        "x": 315,
-        "y": 480,
+        "x": 295,
+        "y": 640,
         "wires": [
             [
                 "95013ad51c33cf0e"
@@ -5599,8 +5641,8 @@
         "links": [
             "9d36add71c0aab6d"
         ],
-        "x": 595,
-        "y": 200,
+        "x": 615,
+        "y": 260,
         "wires": []
     },
     {
@@ -5611,8 +5653,8 @@
         "links": [
             "16230c1cfa320fb2"
         ],
-        "x": 415,
-        "y": 160,
+        "x": 835,
+        "y": 200,
         "wires": []
     },
     {
@@ -5873,8 +5915,8 @@
         "level": "0",
         "freq": "1",
         "out": "pwm",
-        "x": 500,
-        "y": 80,
+        "x": 680,
+        "y": 120,
         "wires": []
     },
     {
@@ -5887,8 +5929,8 @@
         "level": "0",
         "freq": "",
         "out": "out",
-        "x": 490,
-        "y": 340,
+        "x": 470,
+        "y": 500,
         "wires": []
     },
     {
@@ -5901,8 +5943,8 @@
         "level": "0",
         "freq": "",
         "out": "out",
-        "x": 500,
-        "y": 400,
+        "x": 480,
+        "y": 560,
         "wires": []
     },
     {
@@ -5915,8 +5957,8 @@
         "level": "0",
         "freq": "1",
         "out": "pwm",
-        "x": 490,
-        "y": 200,
+        "x": 670,
+        "y": 240,
         "wires": []
     },
     {
@@ -5927,11 +5969,11 @@
         "links": [
             "80594399430db492"
         ],
-        "x": 315,
-        "y": 80,
+        "x": 295,
+        "y": 160,
         "wires": [
             [
-                "1d557fbd683a985b"
+                "79587f0b92bcf7e9"
             ]
         ]
     },
@@ -5944,11 +5986,11 @@
             "61eb9fb6837d39ed",
             "06b19a151509ad95"
         ],
-        "x": 315,
-        "y": 200,
+        "x": 295,
+        "y": 280,
         "wires": [
             [
-                "f319794531237f02"
+                "abf6ac93eaef5553"
             ]
         ]
     },
@@ -5960,8 +6002,8 @@
         "links": [
             "d90a88d9b353ccc5"
         ],
-        "x": 315,
-        "y": 340,
+        "x": 295,
+        "y": 500,
         "wires": [
             [
                 "281b564a8166198b"
@@ -5976,8 +6018,8 @@
         "links": [
             "5122a38576e4dc0b"
         ],
-        "x": 315,
-        "y": 400,
+        "x": 295,
+        "y": 560,
         "wires": [
             [
                 "b489ee2b4b553165"
@@ -6012,12 +6054,12 @@
         "id": "32fae692f565dbec",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "ESP",
         "links": [
             "4b2ff8c67d934266"
         ],
-        "x": 895,
+        "x": 1095,
         "y": 700,
         "wires": []
     },
@@ -6196,7 +6238,9 @@
         "x": 480,
         "y": 60,
         "wires": [
-            []
+            [
+                "88b18c9b163d7488"
+            ]
         ]
     },
     {
@@ -6221,7 +6265,9 @@
         "x": 480,
         "y": 100,
         "wires": [
-            []
+            [
+                "569548021b2b4109"
+            ]
         ]
     },
     {
@@ -6235,12 +6281,12 @@
             {
                 "t": "eq",
                 "v": "0",
-                "vt": "str"
+                "vt": "num"
             },
             {
                 "t": "eq",
                 "v": "1",
-                "vt": "str"
+                "vt": "num"
             }
         ],
         "checkall": "true",
@@ -6309,8 +6355,8 @@
         "links": [
             "4b2ff8c67d934266"
         ],
-        "x": 1195,
-        "y": 1020,
+        "x": 1395,
+        "y": 1000,
         "wires": []
     },
     {
@@ -6587,7 +6633,7 @@
         "id": "2148db6b6557cdbe",
         "type": "change",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "",
         "rules": [
             {
@@ -6613,7 +6659,7 @@
         "id": "f59cfcbbfb4639dd",
         "type": "inject",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "Default Target",
         "props": [
             {
@@ -6644,7 +6690,7 @@
         "id": "b0903eea9a211e5a",
         "type": "ui_slider",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "HLT target slider",
         "label": "Target",
         "tooltip": "",
@@ -6674,7 +6720,7 @@
         "id": "c30fc0af9f5ed2c1",
         "type": "ui_text",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "group": "fdb23bbe7c4d423a",
         "order": 10,
         "width": 3,
@@ -6691,7 +6737,7 @@
         "id": "ab92465b6b3899d2",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "Mash target slider output",
         "links": [
             "6ce6448.f7e59bc"
@@ -6704,7 +6750,7 @@
         "id": "aed6d1138513e9c0",
         "type": "template",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "HLT target temperature",
         "field": "payload",
         "fieldType": "msg",
@@ -6712,8 +6758,8 @@
         "syntax": "mustache",
         "template": "7_HLT_Set.7dt,{{payload}}",
         "output": "str",
-        "x": 730,
-        "y": 1440,
+        "x": 930,
+        "y": 1420,
         "wires": [
             [
                 "cac2f361dc9d167d"
@@ -6724,20 +6770,20 @@
         "id": "cac2f361dc9d167d",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "ESP",
         "links": [
             "4b2ff8c67d934266"
         ],
-        "x": 895,
-        "y": 1440,
+        "x": 1095,
+        "y": 1420,
         "wires": []
     },
     {
         "id": "f64287d933df1ad7",
         "type": "link in",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "HLT SP+/-",
         "links": [
             "23adb644ec3a0a13",
@@ -6755,7 +6801,7 @@
         "id": "ee6b5fc809c1d480",
         "type": "link in",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "HLT PID temperature input",
         "links": [
             "33b1f220.5f8056"
@@ -6772,7 +6818,7 @@
         "id": "74ab11eda85ff2aa",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "HLT PID",
         "links": [
             "24145682.3f917a",
@@ -6786,7 +6832,7 @@
         "id": "3257646635cc6148",
         "type": "switch",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "hlt_on_master switch",
         "property": "hlt_on_slave",
         "propertyType": "global",
@@ -6811,7 +6857,7 @@
         "id": "6291966179c22be1",
         "type": "change",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "",
         "rules": [
             {
@@ -6837,7 +6883,7 @@
         "id": "a4abf3caada9aff7",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "HLT PID display",
         "links": [
             "48ae8805.06b6a",
@@ -6855,7 +6901,7 @@
         "id": "cef604b91b8176bb",
         "type": "function",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "HLT PID",
         "func": "// Note that the algorithm provided below assumes a 1 second iteration time\n// Justin Angevaare\n// May 2018\n\n// Set temperature\nmsg.temperature =  global.get('temp-HLT');\n\n// Well that node doesn't work... do manually\nmsg.interval = 2000\n\n// Calculate error\nmsg.error = global.get('hlt_target') - msg.temperature;\n\n// Set output max\nmsg.max_output = 100\n        \n// Calculate integrator max\nmsg.integrator_max = msg.max_output/flow.get('inner_i_single');\n\n// Update integrator\n// For purposes of integrator, bound error by [-1, 1]\nmsg.inner_integrator_single = flow.get('inner_integrator_single');\nmsg.inner_integrator_single += (msg.interval/1000) * Math.max(Math.min(msg.error, 1), -1);\n\n// Bound total integrator by absolute maximum\nmsg.inner_integrator_single = Math.max(Math.min(msg.inner_integrator_single, msg.integrator_max), -msg.integrator_max);\n\n// Output updated integrator to flow context\nflow.set('inner_integrator_single', msg.inner_integrator_single);\n\n// Calculate proportional action\nmsg.output = msg.error * flow.get('inner_p_single');\n\n// Calculate intergral action\nmsg.output += msg.inner_integrator_single * flow.get('inner_i_single');\n\n// Calculate derivative action\nmsg.inner_derivative_single = (msg.error - flow.get('last_inner_error_single'))/(msg.interval/1000);\nflow.set('inner_derivative_single', msg.inner_derivative_single);\nmsg.output += msg.inner_derivative_single * flow.get('inner_d_single');\n\n// Bound output by [0, max_output]\nmsg.output = Math.max(Math.min(msg.output, msg.max_output), 0);\n\n// Output updated last_inner_error_single to flow context\nmsg.last_inner_error_single = msg.error;\nflow.set('last_inner_error_single', msg.last_inner_error_single);\n\n// Set payload to element output\nmsg.payload = msg.output;\nreturn msg;",
         "outputs": 1,
@@ -6876,7 +6922,7 @@
         "id": "58127e55645a759d",
         "type": "delay",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "",
         "pauseType": "delay",
         "timeout": "5",
@@ -6901,7 +6947,7 @@
         "id": "3e5a6cd8d6bf83f3",
         "type": "change",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "",
         "rules": [
             {
@@ -6936,7 +6982,7 @@
         "id": "ca40e1500822cd36",
         "type": "switch",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -6970,7 +7016,7 @@
         "id": "15408a944489f009",
         "type": "change",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "",
         "rules": [
             {
@@ -7012,7 +7058,7 @@
         "id": "cec1e5478901f7c6",
         "type": "function",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "",
         "func": "if (flow.get(\"hlt_on_slave_temp\") == true) {\n   return msg;\n}",
         "outputs": 1,
@@ -7033,7 +7079,7 @@
         "id": "f551047cfd9c23d7",
         "type": "link in",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "GPIO In_19 HLT element master",
         "links": [
             "6498d1c0c4d158e3"
@@ -7050,7 +7096,7 @@
         "id": "47412f9f84bbed58",
         "type": "change",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "",
         "rules": [
             {
@@ -7128,7 +7174,7 @@
         "id": "ab078de457d6d55a",
         "type": "delay",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "",
         "pauseType": "delay",
         "timeout": "500",
@@ -7152,7 +7198,7 @@
         "id": "12d6dfb910b4682c",
         "type": "delay",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "",
         "pauseType": "delay",
         "timeout": "500",
@@ -7761,7 +7807,7 @@
         "id": "3ee4911f5fff4d5b",
         "type": "link in",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "HLT SP+/-",
         "links": [
             "2fc3a7d519b1a1f6"
@@ -7785,8 +7831,8 @@
         "syntax": "mustache",
         "template": "7_Boil_Duty.7dn,{{payload}}",
         "output": "str",
-        "x": 1060,
-        "y": 1020,
+        "x": 1260,
+        "y": 1000,
         "wires": [
             [
                 "4dbcf754eb968473"
@@ -7955,7 +8001,7 @@
         "id": "c509a37c712e115b",
         "type": "template",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "HLT reset display",
         "field": "payload",
         "fieldType": "msg",
@@ -7975,7 +8021,7 @@
         "id": "091a40822a539eb5",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "ESP",
         "links": [
             "4b2ff8c67d934266"
@@ -7988,7 +8034,7 @@
         "id": "67de5321c7863be7",
         "type": "switch",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "bk_on",
         "property": "hlt_on_master",
         "propertyType": "global",
@@ -8006,7 +8052,7 @@
             [
                 "c509a37c712e115b",
                 "64f69b6318905fc8",
-                "fa5ee3cc9927d414"
+                "8bcb16417036c729"
             ]
         ]
     },
@@ -8014,7 +8060,7 @@
         "id": "98c6853aad4619f4",
         "type": "delay",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "",
         "pauseType": "delay",
         "timeout": "1",
@@ -8039,7 +8085,7 @@
         "id": "bb59efdb7fc2ce62",
         "type": "delay",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "",
         "pauseType": "delay",
         "timeout": "5",
@@ -8064,7 +8110,7 @@
         "id": "044365490e90f6d4",
         "type": "change",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "",
         "rules": [
             {
@@ -8099,7 +8145,7 @@
         "id": "42eb8dfedb06d9f8",
         "type": "switch",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -8133,7 +8179,7 @@
         "id": "4f469df37573a916",
         "type": "change",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "",
         "rules": [
             {
@@ -8175,7 +8221,7 @@
         "id": "f0d60a2429e3810c",
         "type": "function",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "",
         "func": "if (flow.get(\"hlt_on_master_temp\") == true) {\n   return msg;\n}",
         "outputs": 1,
@@ -8196,7 +8242,7 @@
         "id": "9a7c906849186f63",
         "type": "link in",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "GPIO In_19 HLT element master",
         "links": [
             "fb5fbba0acd4b5ba"
@@ -8213,7 +8259,7 @@
         "id": "d7cfd0b2b321f11b",
         "type": "change",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "",
         "rules": [
             {
@@ -8241,7 +8287,7 @@
         "id": "913cb8a6f0c2f52a",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "HLT_master_GPIO_OFF",
         "links": [
             "2c9ea64eba6f6b98",
@@ -8256,7 +8302,7 @@
         "id": "37f128a268947962",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "HLT_master_GPIO_ON",
         "links": [
             "2c9ea64eba6f6b98"
@@ -8269,7 +8315,7 @@
         "id": "e4ee230ed04c1d0f",
         "type": "link in",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "HLT Master PID trigger",
         "links": [
             "5010ffd6.cabb28"
@@ -8286,7 +8332,7 @@
         "id": "0ff0c8475b109576",
         "type": "template",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "HLT reset display",
         "field": "payload",
         "fieldType": "msg",
@@ -8306,7 +8352,7 @@
         "id": "91d6b22ca62ac157",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "ESP",
         "links": [
             "4b2ff8c67d934266"
@@ -8319,7 +8365,7 @@
         "id": "b397c70eab0b6fdb",
         "type": "switch",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "hlt_on",
         "property": "hlt_on_slave",
         "propertyType": "global",
@@ -8343,7 +8389,7 @@
         "id": "b9f853daccfdc5a6",
         "type": "delay",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "",
         "pauseType": "delay",
         "timeout": "1",
@@ -8452,7 +8498,7 @@
         "id": "8b9dd48768aa05a3",
         "type": "link in",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "HLT PID temperature input",
         "links": [
             "86751c96.8bee98"
@@ -8469,7 +8515,7 @@
         "id": "0abd883c83abaa67",
         "type": "change",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "",
         "rules": [
             {
@@ -8495,7 +8541,7 @@
         "id": "1fa228ebe66949a0",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "HLT_slave_GPIO_OFF",
         "links": [
             "b3e11a30.e34f4",
@@ -8510,7 +8556,7 @@
         "id": "935f7744bf917535",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "HLT_slave_GPIO_ON",
         "links": [
             "b64090c1.73319"
@@ -8523,7 +8569,7 @@
         "id": "64f69b6318905fc8",
         "type": "template",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "MLT reset display",
         "field": "payload",
         "fieldType": "msg",
@@ -8763,7 +8809,7 @@
         "id": "4031b8a75d773263",
         "type": "switch",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "hlt_on",
         "property": "hlt_on_master",
         "propertyType": "global",
@@ -8776,10 +8822,10 @@
         "repair": false,
         "outputs": 1,
         "x": 530,
-        "y": 700,
+        "y": 720,
         "wires": [
             [
-                "246d92a0.91a89e"
+                "78aa761ca589f1b4"
             ]
         ]
     },
@@ -8787,7 +8833,7 @@
         "id": "6cfcea51e609d12d",
         "type": "switch",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "hlt_on",
         "property": "hlt_on_slave",
         "propertyType": "global",
@@ -8803,7 +8849,7 @@
         "y": 1440,
         "wires": [
             [
-                "aed6d1138513e9c0"
+                "6658c2cc06c2352b"
             ]
         ]
     },
@@ -8971,7 +9017,7 @@
         "id": "f071336931616d75",
         "type": "template",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "HLT target temperature",
         "field": "payload",
         "fieldType": "msg",
@@ -8979,8 +9025,8 @@
         "syntax": "mustache",
         "template": "7_HLT_Set.7dt,{{payload}}",
         "output": "str",
-        "x": 1170,
-        "y": 1260,
+        "x": 1370,
+        "y": 1240,
         "wires": [
             [
                 "76a95c91c12c5876"
@@ -8991,20 +9037,20 @@
         "id": "76a95c91c12c5876",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "ESP",
         "links": [
             "4b2ff8c67d934266"
         ],
-        "x": 1335,
-        "y": 1260,
+        "x": 1535,
+        "y": 1240,
         "wires": []
     },
     {
         "id": "b185bdba02650d23",
         "type": "change",
         "z": "cdc1c9a3.021f58",
-        "g": "bd336349adf90104",
+        "g": "94161c53f2d20961",
         "name": "",
         "rules": [
             {
@@ -9024,7 +9070,7 @@
         "y": 1260,
         "wires": [
             [
-                "f071336931616d75"
+                "b0d4f59cf2f2a4b6"
             ]
         ]
     },
@@ -9032,7 +9078,7 @@
         "id": "f9b0495ee74e11e5",
         "type": "template",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "HLT initial duty",
         "field": "payload",
         "fieldType": "msg",
@@ -9040,8 +9086,8 @@
         "syntax": "mustache",
         "template": "7_HLT_Set.7dtext,{{payload}}",
         "output": "str",
-        "x": 1140,
-        "y": 520,
+        "x": 1340,
+        "y": 500,
         "wires": [
             [
                 "e4fe8f649f75b01b"
@@ -9052,13 +9098,13 @@
         "id": "e4fe8f649f75b01b",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "ESP",
         "links": [
             "4b2ff8c67d934266"
         ],
-        "x": 1275,
-        "y": 520,
+        "x": 1475,
+        "y": 500,
         "wires": []
     },
     {
@@ -9123,7 +9169,7 @@
         "y": 1020,
         "wires": [
             [
-                "6351c96d475ecf54"
+                "479945aa9d548981"
             ]
         ]
     },
@@ -9131,7 +9177,7 @@
         "id": "c41ac50bbbd7047c",
         "type": "change",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "",
         "rules": [
             {
@@ -9151,7 +9197,7 @@
         "y": 520,
         "wires": [
             [
-                "f9b0495ee74e11e5"
+                "1b44d5845b384242"
             ]
         ]
     },
@@ -9432,7 +9478,7 @@
         "id": "91b3b45f771f2f18",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "ESP",
         "links": [
             "4b2ff8c67d934266"
@@ -10631,7 +10677,7 @@
         "id": "e7bd441d391e9d44",
         "type": "template",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "HLT element duty",
         "field": "payload",
         "fieldType": "msg",
@@ -10639,8 +10685,8 @@
         "syntax": "mustache",
         "template": "7_HLT_Duty.7dn,{{payload}}",
         "output": "str",
-        "x": 1310,
-        "y": 160,
+        "x": 1510,
+        "y": 140,
         "wires": [
             [
                 "6d20f689a7a164e9"
@@ -10651,20 +10697,20 @@
         "id": "6d20f689a7a164e9",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "",
         "links": [
             "4b2ff8c67d934266"
         ],
-        "x": 1455,
-        "y": 160,
+        "x": 1655,
+        "y": 140,
         "wires": []
     },
     {
         "id": "da37c724f8becec2",
         "type": "rbe",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "",
         "func": "rbei",
         "gap": "",
@@ -10677,7 +10723,7 @@
         "y": 160,
         "wires": [
             [
-                "e7bd441d391e9d44"
+                "f9f2e9ede58e1260"
             ]
         ]
     },
@@ -10685,7 +10731,7 @@
         "id": "a4180baf9b9a8a2e",
         "type": "function",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "",
         "func": "var input = msg.payload\nmsg.payload = input.toFixed(1)\nreturn msg;",
         "outputs": 1,
@@ -10705,7 +10751,7 @@
         "id": "2e1f1f1041263066",
         "type": "template",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "HLT inner target",
         "field": "payload",
         "fieldType": "msg",
@@ -10713,8 +10759,8 @@
         "syntax": "mustache",
         "template": "7_HLT_Set.7dn,{{payload}}",
         "output": "str",
-        "x": 1300,
-        "y": 120,
+        "x": 1500,
+        "y": 60,
         "wires": [
             [
                 "5f54d09d7e0bdf2d"
@@ -10725,20 +10771,20 @@
         "id": "5f54d09d7e0bdf2d",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "",
         "links": [
             "4b2ff8c67d934266"
         ],
-        "x": 1435,
-        "y": 120,
+        "x": 1635,
+        "y": 60,
         "wires": []
     },
     {
         "id": "41f5e6a2f3a03e6f",
         "type": "rbe",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "",
         "func": "rbei",
         "gap": "",
@@ -10748,10 +10794,10 @@
         "property": "payload",
         "topi": "topic",
         "x": 1130,
-        "y": 120,
+        "y": 80,
         "wires": [
             [
-                "2e1f1f1041263066"
+                "cacd724c1682e453"
             ]
         ]
     },
@@ -10759,7 +10805,7 @@
         "id": "afefdf37bd59ce8b",
         "type": "function",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "",
         "func": "var input = msg.inner_target\nmsg.payload = input.toFixed(1)\nreturn msg;",
         "outputs": 1,
@@ -10768,7 +10814,7 @@
         "finalize": "",
         "libs": [],
         "x": 980,
-        "y": 120,
+        "y": 80,
         "wires": [
             [
                 "41f5e6a2f3a03e6f"
@@ -10779,12 +10825,12 @@
         "id": "0b0669bcbc4b57ea",
         "type": "link out",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "",
         "links": [
             "4b2ff8c67d934266"
         ],
-        "x": 1195,
+        "x": 1395,
         "y": 360,
         "wires": []
     },
@@ -10792,7 +10838,7 @@
         "id": "fa5ee3cc9927d414",
         "type": "template",
         "z": "cdc1c9a3.021f58",
-        "g": "61bed963f0fb412c",
+        "g": "df2c9f7cbc37c347",
         "name": "HLT inner target",
         "field": "payload",
         "fieldType": "msg",
@@ -10800,7 +10846,7 @@
         "syntax": "mustache",
         "template": "7_HLT_Set.7dtext,----",
         "output": "str",
-        "x": 1060,
+        "x": 1260,
         "y": 360,
         "wires": [
             [
@@ -12047,8 +12093,8 @@
         "syntax": "mustache",
         "template": "7_Boil_Set.7dt,{{payload}}",
         "output": "str",
-        "x": 860,
-        "y": 720,
+        "x": 1070,
+        "y": 700,
         "wires": [
             [
                 "96d3393d10072716"
@@ -12063,8 +12109,8 @@
         "links": [
             "4b2ff8c67d934266"
         ],
-        "x": 1035,
-        "y": 720,
+        "x": 1235,
+        "y": 700,
         "wires": []
     },
     {
@@ -12098,11 +12144,11 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 640,
+        "x": 650,
         "y": 720,
         "wires": [
             [
-                "5c7fdcd6e80b46ba"
+                "e3ed9c37bc5c62d5"
             ]
         ]
     },
@@ -12604,7 +12650,7 @@
         "id": "e4516bb2bc50578e",
         "type": "exec",
         "z": "8f70e1c4.47a51",
-        "command": "curl --silent \"http://10.0.0.2/control?cmd=GPIO,16,1\"",
+        "command": "curl --silent \"http://10.10.10.2/control?cmd=GPIO,16,1\"",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -12612,8 +12658,8 @@
         "winHide": false,
         "oldrc": false,
         "name": "",
-        "x": 670,
-        "y": 260,
+        "x": 780,
+        "y": 340,
         "wires": [
             [],
             [],
@@ -12789,7 +12835,7 @@
         "wires": [
             [
                 "7bebfd67eea6dfc6",
-                "c35753352b9dcbb4"
+                "e06524bb480b9e6f"
             ]
         ]
     },
@@ -12846,7 +12892,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 900,
+        "x": 1100,
         "y": 460,
         "wires": [
             [
@@ -12878,7 +12924,7 @@
         "syntax": "mustache",
         "template": "7_Boil_Set.7dt,{{payload}}",
         "output": "str",
-        "x": 1130,
+        "x": 1330,
         "y": 460,
         "wires": [
             [
@@ -12894,7 +12940,7 @@
         "links": [
             "4b2ff8c67d934266"
         ],
-        "x": 1295,
+        "x": 1495,
         "y": 460,
         "wires": []
     },
@@ -13304,8 +13350,8 @@
         "level": "0",
         "freq": "1",
         "out": "out",
-        "x": 680,
-        "y": 140,
+        "x": 740,
+        "y": 380,
         "wires": []
     },
     {
@@ -13318,8 +13364,8 @@
         "level": "0",
         "freq": "1",
         "out": "out",
-        "x": 670,
-        "y": 260,
+        "x": 730,
+        "y": 420,
         "wires": []
     },
     {
@@ -13342,8 +13388,8 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "date",
-        "x": 150,
-        "y": 200,
+        "x": 210,
+        "y": 400,
         "wires": [
             [
                 "5cb764af9cabd585",
@@ -13387,8 +13433,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 320,
-        "y": 140,
+        "x": 380,
+        "y": 380,
         "wires": [
             [
                 "b1a3620fb03e7195"
@@ -13407,8 +13453,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 470,
-        "y": 140,
+        "x": 530,
+        "y": 380,
         "wires": [
             [
                 "bef84f2bf28ca437"
@@ -13426,8 +13472,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 320,
-        "y": 260,
+        "x": 380,
+        "y": 420,
         "wires": [
             [
                 "38ba68cc6a1ea3a6"
@@ -13446,8 +13492,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 470,
-        "y": 260,
+        "x": 530,
+        "y": 420,
         "wires": [
             [
                 "92fc23bd22a4583a"
@@ -13533,7 +13579,7 @@
         "payload": "-0.1",
         "payloadType": "num",
         "x": 160,
-        "y": 740,
+        "y": 920,
         "wires": [
             [
                 "45df5338243a37df",
@@ -13561,7 +13607,7 @@
         "max": "10",
         "step": "0.1",
         "x": 150,
-        "y": 780,
+        "y": 960,
         "wires": [
             [
                 "02027fa4992db221"
@@ -13588,7 +13634,7 @@
         "to": "",
         "reg": false,
         "x": 390,
-        "y": 780,
+        "y": 960,
         "wires": [
             []
         ]
@@ -13626,7 +13672,7 @@
         "z": "b764cb6a.5d4448",
         "name": "",
         "group": "e6458924fcbea006",
-        "order": 3,
+        "order": 12,
         "width": 0,
         "height": 0,
         "passthru": false,
@@ -13669,7 +13715,7 @@
         "payload": "-0.1",
         "payloadType": "num",
         "x": 170,
-        "y": 840,
+        "y": 1020,
         "wires": [
             [
                 "696f585511f4f3c7",
@@ -13685,7 +13731,7 @@
         "label": "HLT",
         "tooltip": "",
         "group": "e6458924fcbea006",
-        "order": 1,
+        "order": 3,
         "width": 4,
         "height": 1,
         "wrap": false,
@@ -13697,7 +13743,7 @@
         "max": "10",
         "step": "0.1",
         "x": 150,
-        "y": 880,
+        "y": 1060,
         "wires": [
             [
                 "b6177dd3ebc05bc8"
@@ -13724,7 +13770,7 @@
         "to": "",
         "reg": false,
         "x": 390,
-        "y": 880,
+        "y": 1060,
         "wires": [
             []
         ]
@@ -13751,7 +13797,7 @@
         "payload": "0.1",
         "payloadType": "num",
         "x": 170,
-        "y": 940,
+        "y": 1120,
         "wires": [
             [
                 "7de825555d4ae9f4",
@@ -13767,7 +13813,7 @@
         "label": "MLT",
         "tooltip": "",
         "group": "e6458924fcbea006",
-        "order": 1,
+        "order": 5,
         "width": 4,
         "height": 1,
         "wrap": false,
@@ -13779,7 +13825,7 @@
         "max": "10",
         "step": "0.1",
         "x": 150,
-        "y": 980,
+        "y": 1160,
         "wires": [
             [
                 "3108bf78a091485c"
@@ -13806,9 +13852,1412 @@
         "to": "",
         "reg": false,
         "x": 390,
-        "y": 980,
+        "y": 1160,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "a9488f44c12ae2ee",
+        "type": "sensor-ds18b20",
+        "z": "cae39ee2.e2c898",
+        "name": "temp_ssr_bk",
+        "topic": "",
+        "sensorid": "28-041637c899ff",
+        "timer": "1",
+        "repeat": false,
+        "x": 310,
+        "y": 760,
+        "wires": [
+            [
+                "598a888151f5bd19"
+            ]
+        ]
+    },
+    {
+        "id": "36b4de81ee4a53fc",
+        "type": "link in",
+        "z": "cae39ee2.e2c898",
+        "name": "SSR temp",
+        "links": [
+            "5010ffd6.cabb28"
+        ],
+        "x": 175,
+        "y": 760,
+        "wires": [
+            [
+                "a9488f44c12ae2ee"
+            ]
+        ]
+    },
+    {
+        "id": "7e494aef07c27336",
+        "type": "change",
+        "z": "cae39ee2.e2c898",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "temp_ssr_bk",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 760,
+        "wires": [
+            [
+                "a768febec09a3cdd"
+            ]
+        ]
+    },
+    {
+        "id": "e89dd59fc03bdfe8",
+        "type": "sensor-ds18b20",
+        "z": "cae39ee2.e2c898",
+        "name": "temp_ssr_hlt",
+        "topic": "",
+        "sensorid": "28-041637c899ff",
+        "timer": "1",
+        "repeat": false,
+        "x": 310,
+        "y": 820,
+        "wires": [
+            [
+                "3d2c620720cf52e7"
+            ]
+        ]
+    },
+    {
+        "id": "e83cac24c95cfd48",
+        "type": "link in",
+        "z": "cae39ee2.e2c898",
+        "name": "SSR temp",
+        "links": [
+            "5010ffd6.cabb28"
+        ],
+        "x": 175,
+        "y": 820,
+        "wires": [
+            [
+                "e89dd59fc03bdfe8"
+            ]
+        ]
+    },
+    {
+        "id": "c5e2399ba858aacd",
+        "type": "change",
+        "z": "cae39ee2.e2c898",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "temp_ssr_hlt",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 820,
+        "wires": [
+            [
+                "8c790dc7863cc2e6"
+            ]
+        ]
+    },
+    {
+        "id": "79587f0b92bcf7e9",
+        "type": "switch",
+        "z": "b1c692f68c5eab8e",
+        "name": "SSR temp safe",
+        "property": "temp_ssr_hlt",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "70",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "70",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 440,
+        "y": 160,
+        "wires": [
+            [
+                "1d557fbd683a985b"
+            ],
+            [
+                "1d30202c16b13557"
+            ]
+        ]
+    },
+    {
+        "id": "d3e3189e31557cd4",
+        "type": "switch",
+        "z": "8f70e1c4.47a51",
+        "name": "SSR temp safe",
+        "property": "temp_ssr_hlt",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "70",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "70",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 500,
+        "y": 200,
+        "wires": [
+            [
+                "2f8d9c23b56e71a1"
+            ],
+            [
+                "3d1675786955e2f2"
+            ]
+        ]
+    },
+    {
+        "id": "d9987724f2c1b3cc",
+        "type": "link out",
+        "z": "8f70e1c4.47a51",
+        "name": "GPIO Out_38 Status OK",
+        "links": [
+            "9d36add71c0aab6d"
+        ],
+        "x": 1015,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "3d1675786955e2f2",
+        "type": "change",
+        "z": "8f70e1c4.47a51",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 260,
+        "wires": [
+            [
+                "d9987724f2c1b3cc"
+            ]
+        ]
+    },
+    {
+        "id": "2f8d9c23b56e71a1",
+        "type": "switch",
+        "z": "8f70e1c4.47a51",
+        "name": "SSR temp safe",
+        "property": "temp_ssr_bk",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "70",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "70",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 700,
+        "y": 200,
+        "wires": [
+            [
+                "7d2285997aa3a58a"
+            ],
+            [
+                "3d1675786955e2f2"
+            ]
+        ]
+    },
+    {
+        "id": "173df5b562555843",
+        "type": "delay",
+        "z": "8f70e1c4.47a51",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "200",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 310,
+        "y": 140,
+        "wires": [
+            [
+                "5a5a9495.acb01c"
+            ]
+        ]
+    },
+    {
+        "id": "1a29cb6801f5bad9",
+        "type": "delay",
+        "z": "8f70e1c4.47a51",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 480,
+        "y": 340,
+        "wires": [
+            [
+                "e4516bb2bc50578e"
+            ]
+        ]
+    },
+    {
+        "id": "6011a7f21c61d0ad",
+        "type": "debug",
+        "z": "8f70e1c4.47a51",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "88b18c9b163d7488",
+        "type": "debug",
+        "z": "8f70e1c4.47a51",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "569548021b2b4109",
+        "type": "debug",
+        "z": "8f70e1c4.47a51",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "5d26ac99230947ed",
+        "type": "function",
+        "z": "8f70e1c4.47a51",
+        "name": "Invert value",
+        "func": "if (msg.payload = \"0\") {\n    msg.payload = Number(\"1\")\n};\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 280,
+        "wires": [
+            [
+                "5d8e28698cbe3963"
+            ]
+        ]
+    },
+    {
+        "id": "1d30202c16b13557",
+        "type": "change",
+        "z": "b1c692f68c5eab8e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 180,
+        "wires": [
+            [
+                "1d557fbd683a985b"
+            ]
+        ]
+    },
+    {
+        "id": "abf6ac93eaef5553",
+        "type": "switch",
+        "z": "b1c692f68c5eab8e",
+        "name": "BK temp safe",
+        "property": "temp_ssr_bk",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "70",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "70",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 440,
+        "y": 280,
+        "wires": [
+            [
+                "f319794531237f02"
+            ],
+            [
+                "c2747c44b2f29647"
+            ]
+        ]
+    },
+    {
+        "id": "c2747c44b2f29647",
+        "type": "change",
+        "z": "b1c692f68c5eab8e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 300,
+        "wires": [
+            [
+                "f319794531237f02"
+            ]
+        ]
+    },
+    {
+        "id": "598a888151f5bd19",
+        "type": "function",
+        "z": "cae39ee2.e2c898",
+        "name": "SSR BK adjust",
+        "func": "msg.payload = (msg.payload + flow.get('ssr_bk_adjust'));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 760,
+        "wires": [
+            [
+                "7e494aef07c27336"
+            ]
+        ]
+    },
+    {
+        "id": "3d2c620720cf52e7",
+        "type": "function",
+        "z": "cae39ee2.e2c898",
+        "name": "SSR HLT adjust",
+        "func": "msg.payload = (msg.payload + flow.get('ssr_hlt_adjust'));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 820,
+        "wires": [
+            [
+                "c5e2399ba858aacd"
+            ]
+        ]
+    },
+    {
+        "id": "8825b2bbed121c26",
+        "type": "inject",
+        "z": "cae39ee2.e2c898",
+        "name": "Default SSR BK adjustment",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0.1",
+        "payloadType": "num",
+        "x": 180,
+        "y": 1220,
+        "wires": [
+            [
+                "d7b9f0158c2f84a1",
+                "c74c9420c36ed385"
+            ]
+        ]
+    },
+    {
+        "id": "d7b9f0158c2f84a1",
+        "type": "ui_numeric",
+        "z": "cae39ee2.e2c898",
+        "name": "",
+        "label": "SSR BK",
+        "tooltip": "",
+        "group": "e6458924fcbea006",
+        "order": 7,
+        "width": 4,
+        "height": 1,
+        "wrap": false,
+        "passthru": false,
+        "topic": "",
+        "topicType": "str",
+        "format": "{{value | number:1}}",
+        "min": "-100",
+        "max": "100",
+        "step": "1",
+        "x": 160,
+        "y": 1260,
+        "wires": [
+            [
+                "c74c9420c36ed385"
+            ]
+        ]
+    },
+    {
+        "id": "c74c9420c36ed385",
+        "type": "change",
+        "z": "cae39ee2.e2c898",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ssr_bk_adjust",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fcd274454d914634",
+        "type": "inject",
+        "z": "cae39ee2.e2c898",
+        "name": "Default SSR HLT adjustment",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0.1",
+        "payloadType": "num",
+        "x": 180,
+        "y": 1320,
+        "wires": [
+            [
+                "28a5440f8df50adf",
+                "f0c1794366d41c5c"
+            ]
+        ]
+    },
+    {
+        "id": "28a5440f8df50adf",
+        "type": "ui_numeric",
+        "z": "cae39ee2.e2c898",
+        "name": "",
+        "label": "SSR HLT",
+        "tooltip": "",
+        "group": "e6458924fcbea006",
+        "order": 9,
+        "width": 4,
+        "height": 1,
+        "wrap": false,
+        "passthru": false,
+        "topic": "",
+        "topicType": "str",
+        "format": "{{value | number:1}}",
+        "min": "-100",
+        "max": "100",
+        "step": "1",
+        "x": 160,
+        "y": 1360,
+        "wires": [
+            [
+                "f0c1794366d41c5c"
+            ]
+        ]
+    },
+    {
+        "id": "f0c1794366d41c5c",
+        "type": "change",
+        "z": "cae39ee2.e2c898",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ssr_hlt_adjust",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 1360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a768febec09a3cdd",
+        "type": "ui_text",
+        "z": "cae39ee2.e2c898",
+        "group": "e6458924fcbea006",
+        "order": 8,
+        "width": 2,
+        "height": 1,
+        "name": "SSR BK temperature display",
+        "label": "",
+        "format": "{{msg.payload | number:1}}°C",
+        "layout": "col-center",
+        "x": 1000,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "8c790dc7863cc2e6",
+        "type": "ui_text",
+        "z": "cae39ee2.e2c898",
+        "group": "e6458924fcbea006",
+        "order": 10,
+        "width": 2,
+        "height": 1,
+        "name": "SSR HLT temperature display",
+        "label": "",
+        "format": "{{msg.payload | number:1}}°C",
+        "layout": "col-center",
+        "x": 1010,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "2f54fd5303ba559d",
+        "type": "ui_text",
+        "z": "cae39ee2.e2c898",
+        "group": "e6458924fcbea006",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "name": "BK temperature display",
+        "label": "",
+        "format": "{{msg.payload | number:1}}°C",
+        "layout": "col-center",
+        "x": 970,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "8673b8f1e1385c53",
+        "type": "ui_text",
+        "z": "cae39ee2.e2c898",
+        "group": "e6458924fcbea006",
+        "order": 4,
+        "width": 2,
+        "height": 1,
+        "name": "HLT temperature display",
+        "label": "",
+        "format": "{{msg.payload | number:1}}°C",
+        "layout": "col-center",
+        "x": 990,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "cc54aa2698ee39cf",
+        "type": "ui_text",
+        "z": "cae39ee2.e2c898",
+        "group": "e6458924fcbea006",
+        "order": 6,
+        "width": 2,
+        "height": 1,
+        "name": "MLT temperature display",
+        "label": "",
+        "format": "{{msg.payload | number:1}}°C",
+        "layout": "col-center",
+        "x": 990,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "e06524bb480b9e6f",
+        "type": "switch",
+        "z": "1e878673.29136a",
+        "name": "BK temp safe",
+        "property": "temp_ssr_bk",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "70",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "70",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 900,
+        "y": 480,
+        "wires": [
+            [
+                "c35753352b9dcbb4"
+            ],
+            [
+                "97031515b039f74f"
+            ]
+        ]
+    },
+    {
+        "id": "97031515b039f74f",
+        "type": "template",
+        "z": "1e878673.29136a",
+        "name": "BK SSR Hot",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "7_Boil_Set.7dtext,hot",
+        "output": "str",
+        "x": 1090,
+        "y": 500,
+        "wires": [
+            [
+                "247cafd7f15bea74"
+            ]
+        ]
+    },
+    {
+        "id": "247cafd7f15bea74",
+        "type": "link out",
+        "z": "1e878673.29136a",
+        "name": "ESP",
+        "links": [
+            "4b2ff8c67d934266"
+        ],
+        "x": 1215,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "e3ed9c37bc5c62d5",
+        "type": "switch",
+        "z": "1e878673.29136a",
+        "name": "BK temp safe",
+        "property": "temp_ssr_bk",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "70",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "70",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 840,
+        "y": 720,
+        "wires": [
+            [
+                "5c7fdcd6e80b46ba"
+            ],
+            [
+                "92be89fe52a10ec5"
+            ]
+        ]
+    },
+    {
+        "id": "92be89fe52a10ec5",
+        "type": "template",
+        "z": "1e878673.29136a",
+        "name": "BK SSR Hot",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "7_Boil_Set.7dtext,hot",
+        "output": "str",
+        "x": 1030,
+        "y": 740,
+        "wires": [
+            [
+                "fb90b30244eef11c"
+            ]
+        ]
+    },
+    {
+        "id": "fb90b30244eef11c",
+        "type": "link out",
+        "z": "1e878673.29136a",
+        "name": "ESP",
+        "links": [
+            "4b2ff8c67d934266"
+        ],
+        "x": 1155,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "479945aa9d548981",
+        "type": "switch",
+        "z": "1e878673.29136a",
+        "name": "BK temp safe",
+        "property": "temp_ssr_bk",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "70",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "70",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1060,
+        "y": 1020,
+        "wires": [
+            [
+                "6351c96d475ecf54"
+            ],
+            [
+                "53835e35cc93f44d"
+            ]
+        ]
+    },
+    {
+        "id": "53835e35cc93f44d",
+        "type": "template",
+        "z": "1e878673.29136a",
+        "name": "BK SSR Hot",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "7_Boil_Duty.7dtext,hot",
+        "output": "str",
+        "x": 1250,
+        "y": 1040,
+        "wires": [
+            [
+                "71929ffb1e5f0c01"
+            ]
+        ]
+    },
+    {
+        "id": "71929ffb1e5f0c01",
+        "type": "link out",
+        "z": "1e878673.29136a",
+        "name": "ESP",
+        "links": [
+            "4b2ff8c67d934266"
+        ],
+        "x": 1375,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "cacd724c1682e453",
+        "type": "switch",
+        "z": "cdc1c9a3.021f58",
+        "g": "df2c9f7cbc37c347",
+        "name": "HLT temp safe",
+        "property": "temp_ssr_hlt",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "70",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "70",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1300,
+        "y": 80,
+        "wires": [
+            [
+                "2e1f1f1041263066"
+            ],
+            [
+                "d8faefb485268f8c"
+            ]
+        ]
+    },
+    {
+        "id": "d8faefb485268f8c",
+        "type": "template",
+        "z": "cdc1c9a3.021f58",
+        "g": "df2c9f7cbc37c347",
+        "name": "HLT SSR Hot",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "7_HLT_Set.7dtext,hot",
+        "output": "str",
+        "x": 1490,
+        "y": 100,
+        "wires": [
+            [
+                "d31496d7ef30101b"
+            ]
+        ]
+    },
+    {
+        "id": "d31496d7ef30101b",
+        "type": "link out",
+        "z": "cdc1c9a3.021f58",
+        "g": "df2c9f7cbc37c347",
+        "name": "ESP",
+        "links": [
+            "4b2ff8c67d934266"
+        ],
+        "x": 1615,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "f9f2e9ede58e1260",
+        "type": "switch",
+        "z": "cdc1c9a3.021f58",
+        "g": "df2c9f7cbc37c347",
+        "name": "HLT temp safe",
+        "property": "temp_ssr_hlt",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "70",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "70",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1300,
+        "y": 160,
+        "wires": [
+            [
+                "e7bd441d391e9d44"
+            ],
+            [
+                "765d2d0d33574d29"
+            ]
+        ]
+    },
+    {
+        "id": "765d2d0d33574d29",
+        "type": "template",
+        "z": "cdc1c9a3.021f58",
+        "g": "df2c9f7cbc37c347",
+        "name": "HLT SSR Hot",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "7_HLT_Duty.7dtext,hot",
+        "output": "str",
+        "x": 1490,
+        "y": 180,
+        "wires": [
+            [
+                "6ef526a52f1f20d7"
+            ]
+        ]
+    },
+    {
+        "id": "6ef526a52f1f20d7",
+        "type": "link out",
+        "z": "cdc1c9a3.021f58",
+        "g": "df2c9f7cbc37c347",
+        "name": "ESP",
+        "links": [
+            "4b2ff8c67d934266"
+        ],
+        "x": 1615,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "8bcb16417036c729",
+        "type": "switch",
+        "z": "cdc1c9a3.021f58",
+        "g": "df2c9f7cbc37c347",
+        "name": "HLT temp safe",
+        "property": "temp_ssr_hlt",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "70",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "70",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1060,
+        "y": 380,
+        "wires": [
+            [
+                "fa5ee3cc9927d414"
+            ],
+            [
+                "6387328aae5436da"
+            ]
+        ]
+    },
+    {
+        "id": "6387328aae5436da",
+        "type": "template",
+        "z": "cdc1c9a3.021f58",
+        "g": "df2c9f7cbc37c347",
+        "name": "HLT SSR Hot",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "7_HLT_Set.7dtext,hot",
+        "output": "str",
+        "x": 1250,
+        "y": 400,
+        "wires": [
+            [
+                "0ad8924598a78cf4"
+            ]
+        ]
+    },
+    {
+        "id": "0ad8924598a78cf4",
+        "type": "link out",
+        "z": "cdc1c9a3.021f58",
+        "g": "df2c9f7cbc37c347",
+        "name": "ESP",
+        "links": [
+            "4b2ff8c67d934266"
+        ],
+        "x": 1375,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "1b44d5845b384242",
+        "type": "switch",
+        "z": "cdc1c9a3.021f58",
+        "g": "df2c9f7cbc37c347",
+        "name": "HLT temp safe",
+        "property": "temp_ssr_hlt",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "70",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "70",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1140,
+        "y": 520,
+        "wires": [
+            [
+                "f9b0495ee74e11e5"
+            ],
+            [
+                "16502dbcd50c4c04"
+            ]
+        ]
+    },
+    {
+        "id": "16502dbcd50c4c04",
+        "type": "template",
+        "z": "cdc1c9a3.021f58",
+        "g": "df2c9f7cbc37c347",
+        "name": "HLT SSR Hot",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "7_HLT_Set.7dtext,hot",
+        "output": "str",
+        "x": 1330,
+        "y": 540,
+        "wires": [
+            [
+                "b32da42c349a16ea"
+            ]
+        ]
+    },
+    {
+        "id": "b32da42c349a16ea",
+        "type": "link out",
+        "z": "cdc1c9a3.021f58",
+        "g": "df2c9f7cbc37c347",
+        "name": "ESP",
+        "links": [
+            "4b2ff8c67d934266"
+        ],
+        "x": 1455,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "78aa761ca589f1b4",
+        "type": "switch",
+        "z": "cdc1c9a3.021f58",
+        "g": "df2c9f7cbc37c347",
+        "name": "HLT temp safe",
+        "property": "temp_ssr_hlt",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "70",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "70",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 700,
+        "y": 720,
+        "wires": [
+            [
+                "246d92a0.91a89e"
+            ],
+            [
+                "516ce2d62d52349f"
+            ]
+        ]
+    },
+    {
+        "id": "516ce2d62d52349f",
+        "type": "template",
+        "z": "cdc1c9a3.021f58",
+        "g": "df2c9f7cbc37c347",
+        "name": "HLT SSR Hot",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "7_MLT_Set.7dtext,hot",
+        "output": "str",
+        "x": 890,
+        "y": 740,
+        "wires": [
+            [
+                "68f7708378759a92"
+            ]
+        ]
+    },
+    {
+        "id": "68f7708378759a92",
+        "type": "link out",
+        "z": "cdc1c9a3.021f58",
+        "g": "df2c9f7cbc37c347",
+        "name": "ESP",
+        "links": [
+            "4b2ff8c67d934266"
+        ],
+        "x": 1015,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "b0d4f59cf2f2a4b6",
+        "type": "switch",
+        "z": "cdc1c9a3.021f58",
+        "g": "94161c53f2d20961",
+        "name": "HLT temp safe",
+        "property": "temp_ssr_hlt",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "70",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "70",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1140,
+        "y": 1260,
+        "wires": [
+            [
+                "f071336931616d75"
+            ],
+            [
+                "627430b6f95c19ab"
+            ]
+        ]
+    },
+    {
+        "id": "627430b6f95c19ab",
+        "type": "template",
+        "z": "cdc1c9a3.021f58",
+        "g": "94161c53f2d20961",
+        "name": "HLT SSR Hot",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "7_HLT_Set.7dtext,hot",
+        "output": "str",
+        "x": 1330,
+        "y": 1280,
+        "wires": [
+            [
+                "de16d9ef2845bd8e"
+            ]
+        ]
+    },
+    {
+        "id": "de16d9ef2845bd8e",
+        "type": "link out",
+        "z": "cdc1c9a3.021f58",
+        "g": "94161c53f2d20961",
+        "name": "ESP",
+        "links": [
+            "4b2ff8c67d934266"
+        ],
+        "x": 1455,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "6658c2cc06c2352b",
+        "type": "switch",
+        "z": "cdc1c9a3.021f58",
+        "g": "94161c53f2d20961",
+        "name": "HLT temp safe",
+        "property": "temp_ssr_hlt",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "70",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "70",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 700,
+        "y": 1440,
+        "wires": [
+            [
+                "aed6d1138513e9c0"
+            ],
+            [
+                "4110f8700764783f"
+            ]
+        ]
+    },
+    {
+        "id": "4110f8700764783f",
+        "type": "template",
+        "z": "cdc1c9a3.021f58",
+        "g": "94161c53f2d20961",
+        "name": "HLT SSR Hot",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "7_HLT_Set.7dtext,hot",
+        "output": "str",
+        "x": 890,
+        "y": 1460,
+        "wires": [
+            [
+                "721c1c5795d7dafb"
+            ]
+        ]
+    },
+    {
+        "id": "721c1c5795d7dafb",
+        "type": "link out",
+        "z": "cdc1c9a3.021f58",
+        "g": "94161c53f2d20961",
+        "name": "ESP",
+        "links": [
+            "4b2ff8c67d934266"
+        ],
+        "x": 1015,
+        "y": 1460,
+        "wires": []
     }
 ]

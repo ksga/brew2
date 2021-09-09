@@ -46,7 +46,7 @@
       },
       "gridPos": {
         "h": 5,
-        "w": 12,
+        "w": 24,
         "x": 0,
         "y": 0
       },
@@ -70,12 +70,20 @@
       "targets": [
         {
           "exemplar": true,
+          "expr": "target_mlt",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "MLT target (°C)",
+          "refId": "K"
+        },
+        {
+          "exemplar": true,
           "expr": "outer_error",
           "format": "time_series",
           "instant": false,
           "interval": "",
           "intervalFactor": 1,
-          "legendFormat": "Error (°C)",
+          "legendFormat": "Outer error (°C)",
           "refId": "A"
         },
         {
@@ -83,7 +91,7 @@
           "expr": "temp_mlt",
           "hide": false,
           "interval": "",
-          "legendFormat": "Temp (°C)",
+          "legendFormat": "MLT Temp (°C)",
           "refId": "B"
         },
         {
@@ -91,7 +99,7 @@
           "expr": "outer_integrator",
           "hide": false,
           "interval": "",
-          "legendFormat": "Integrator (°C*s)",
+          "legendFormat": "Outer integrator (°C*s)",
           "refId": "C"
         },
         {
@@ -99,7 +107,7 @@
           "expr": "outer_derivative",
           "hide": false,
           "interval": "",
-          "legendFormat": "Derivative (°C/s)",
+          "legendFormat": "Outer derivative (°C/s)",
           "refId": "D"
         },
         {
@@ -107,101 +115,59 @@
           "expr": "outer_output",
           "hide": false,
           "interval": "",
-          "legendFormat": "Output (°C)",
+          "legendFormat": "Outer output (°C)",
           "refId": "E"
-        }
-      ],
-      "title": "Outer PID",
-      "type": "stat"
-    },
-    {
-      "datasource": null,
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "thresholds"
-          },
-          "mappings": [],
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              }
-            ]
-          }
         },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 5,
-        "w": 12,
-        "x": 12,
-        "y": 0
-      },
-      "id": 13,
-      "options": {
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto",
-        "orientation": "auto",
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
+        {
+          "exemplar": true,
+          "expr": "inner_target",
+          "hide": false,
+          "interval": "",
+          "legendFormat": "Inner target (°C)",
+          "refId": "L"
         },
-        "text": {},
-        "textMode": "auto"
-      },
-      "pluginVersion": "8.1.1",
-      "targets": [
         {
           "exemplar": true,
           "expr": "inner_error",
-          "format": "time_series",
-          "instant": false,
+          "hide": false,
           "interval": "",
-          "intervalFactor": 1,
-          "legendFormat": "Error (°C)",
-          "refId": "A"
+          "legendFormat": "Inner error (°C)",
+          "refId": "F"
         },
         {
           "exemplar": true,
           "expr": "temp_hlt",
           "hide": false,
           "interval": "",
-          "legendFormat": "Temp (°C)",
-          "refId": "E"
+          "legendFormat": "HLT Temp (°C)",
+          "refId": "G"
         },
         {
           "exemplar": true,
           "expr": "inner_integrator",
           "hide": false,
           "interval": "",
-          "legendFormat": "Integrator (°C*s)",
-          "refId": "C"
+          "legendFormat": "Inner integrator (°C*s)",
+          "refId": "H"
         },
         {
           "exemplar": true,
           "expr": "inner_derivative",
           "hide": false,
           "interval": "",
-          "legendFormat": "Derivative (°C/s)",
-          "refId": "D"
+          "legendFormat": "Inner derivative (°C/s)",
+          "refId": "I"
         },
         {
           "exemplar": true,
           "expr": "duty_hlt",
           "hide": false,
           "interval": "",
-          "legendFormat": "Element (%)",
-          "refId": "B"
+          "legendFormat": "HLT element (%)",
+          "refId": "J"
         }
       ],
-      "title": "Inner PID",
+      "title": "Outer PID",
       "type": "stat"
     },
     {
@@ -370,5 +336,5 @@
   "timezone": "",
   "title": "Cascade PID",
   "uid": "Okr_1o7nz",
-  "version": 26
+  "version": 27
 }

@@ -17,6 +17,7 @@ This project is made for a three vessel brewery with two pumps to perform recirc
 * Integrator windup elimination method implemented in all PID algorithms
 * Option of logging of temperature, output, as well as PID calculations (useful for PID tuning and analysing PID behaviour) using [Prometheus](https://prometheus.io/) and [Grafana](https://grafana.com/) (running on another device)
 * Manual controls for just about everything, so no need to bring a laptop (and acccidentally soaking it in wort) for brew day
+* SSR overheat protection
 
 <h4>Cascade PID</h4>
 

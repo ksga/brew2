@@ -192,7 +192,7 @@
         },
         {
           "exemplar": true,
-          "expr": "duty_bk",
+          "expr": "duty_hlt",
           "hide": false,
           "interval": "",
           "legendFormat": "Duty (%)",
@@ -273,5 +273,5 @@
   "timezone": "",
   "title": "Single PID",
   "uid": "okggIr77k",
-  "version": 10
+  "version": 11
 }

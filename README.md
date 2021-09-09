@@ -50,10 +50,10 @@ The Raspberry Pi is running Prometheus scraping the metrics every two seconds. O
 <h3>Screenshots (v0.6)</h3>
 
 <img src = "main.png" width=600>
-<img src = "settings_main.png" width=600>
+<img src = "settings_main.png" width=300>
 <img src = "settings_cascade.png" width=600>
-<img src = "settings_sensors.png" width=600>
-<img src = "grafana_cascade_pid.png" width=600>
+<img src = "settings_sensors.png" width=300>
+<img src = "grafana_cascade_pid.png" width=800>
 
 <sub>The screenshots included in this repository may not always represent the current version. I will update these screenshots with more significant changes to the dashboard, and will also indicate the version number they represent.</sub>
 

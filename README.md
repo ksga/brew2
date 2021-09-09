@@ -47,7 +47,7 @@ The hardware setup is heavily inspired by The Electric Brewery, but as mentioned
 The Raspberry Pi is running Prometheus scraping the metrics every two seconds. On a separate laptop Grafana connects to Prometheus and shows everything on some nice graphs in realtime. On boot Prometheus is not running, but it can be started from the settings menu.
 
 
-<h3>Screenshots (v0.5)</h3>
+<h3>Screenshots (v0.6)</h3>
 
 <img src = "main.png" width=600>
 <img src = "settings_main.png" width=600>
